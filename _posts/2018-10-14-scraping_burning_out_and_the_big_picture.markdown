@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Scraping, Burning Out, and the "Big Picture""
-date:       2018-10-15 03:46:56 +0000
+date:       2018-10-14 23:46:56 -0400
 permalink:  scraping_burning_out_and_the_big_picture
 ---
 
