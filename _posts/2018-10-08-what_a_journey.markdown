@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "What a Journey!"
-date:       2018-10-09 02:34:39 +0000
+date:       2018-10-08 22:34:40 -0400
 permalink:  what_a_journey
 ---
 
@@ -12,9 +12,9 @@ Journey. Man, how many times has THAT word appeared in my life? I've lost count!
 
 College was where things started to get interesting. I started out in Environmental Science (because I'm interested in nature, too), then switched into mechanical engineering, which fit my interests a lot better.
 
-So, fast-forwarding a few years later, I got my Bachelor's. There was just one little problem: although I had my degree and was interested in engineering, I didn't have the mechanical background (or 2+ years of experience) that a lot of companies were looking for, even in entry level jobs! Strangely enough, for a guy who likes toys that let me put stuff together (puzzles, Legos, K'nex, etc), I don't really have any hobbies that involve machines - I don't exactly fix cars or use a hammer and nail on a regular basis. And as I discovered through a lot of entry level jobs, I don't want to stand on my feet all day doing the same repetitive tasks.
+So, fast-forwarding a few years later, I got my Bachelor's. There was just one little problem: although I had my degree and was interested in engineering, I didn't have the mechanical background (or 2+ years of experience) that a lot of companies were - ARE - looking for, even in entry level jobs! Strangely enough, for a guy who likes toys that let me put stuff together (puzzles, Legos, K'nex, etc), I don't really have any hobbies that involve machines - I don't exactly fix cars or use a hammer and nail on a regular basis. And as I discovered through a lot of entry level jobs, I don't want to stand on my feet all day doing the same repetitive tasks.
 
-OK, so I've obviously had quite the journey in my career, but how does it tie into software development?" The answer, believe it or not, is back in my college years. Recently, I started looking at the other courses I took. 
+OK, so I've obviously had quite the journey in my career, but how does it tie into software development? The answer, believe it or not, is back in my college years. Recently, I started looking at the other courses I took. 
 
 As crazy as this sounds, one of the required courses for my mechanical engineering degree was "Introduction to C-Programming". Despite its difficulty, I actually really enjoyed that course, to the point that I started taking other courses in programming! I even tried to get a Computer Science minor, until I discovered that those courses required a LOT of prerequisites. But one thing stood out: I did consistently better in those courses (C, Java, and Python), than in my engineering courses!
 
