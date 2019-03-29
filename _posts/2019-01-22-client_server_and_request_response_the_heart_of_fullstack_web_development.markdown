@@ -6,7 +6,7 @@ permalink:  client_server_and_request_response_the_heart_of_fullstack_web_develo
 ---
 
 
-### Introduction
+### **Introduction**
 
 When I started Flatiron's Bootcamp Prep, I found out that I would be learning Fullstack web development, which combines Front-End and Back-End web development. With Front-End, you learn languages like HTML and Javascript; with Back-End, you learn Ruby, SQL, and other languages. But one question has been nagging me in the back of my mind for quite some time: *How exactly do Front-End and Back-End web development WORK together?* The answer, as it turns out, is in the interaction between the client and the server, and in the request/response cycle. This is the very HEART of Fullstack web development! 
 
@@ -28,6 +28,7 @@ Here's how this whole process works:
 8. The server sends this response back to the client, which then interprets it and renders the body of the response, translating it into text, sound, and images - the part of the website that we're are all familiar with.
 9. *Side Note:* This is only true if the client is a web browser. Other clients are unable to render the response body; command lines in particular will only output it as a string of HTML.
 9. Depending on the nature of the response received by the client, it may make additional requests to the server and/or other servers. The server, in turn, may also send back additional responses and/or make requests to other servers, depending on the request that it receives. This is the "cycle" portion of the request/response cycle.
+
 
 
 ### Front-End and Back-End Web Development
