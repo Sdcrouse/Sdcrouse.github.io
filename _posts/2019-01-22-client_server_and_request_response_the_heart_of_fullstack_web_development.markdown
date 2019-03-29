@@ -6,11 +6,11 @@ permalink:  client_server_and_request_response_the_heart_of_fullstack_web_develo
 ---
 
 
-#### Introduction
+### Introduction
 
 When I started Flatiron's Bootcamp Prep, I found out that I would be learning Fullstack web development, which combines Front-End and Back-End web development. With Front-End, you learn languages like HTML and Javascript; with Back-End, you learn Ruby, SQL, and other languages. But one question has been nagging me in the back of my mind for quite some time: *How exactly do Front-End and Back-End web development WORK together?* The answer, as it turns out, is in the interaction between the client and the server, and in the request/response cycle. This is the very HEART of Fullstack web development! 
 
-#### The client/server model and the request/response cycle
+### The client/server model and the request/response cycle
 
 Here's what I mean by client/server and request/response. Whenever you want to access a website on the Internet, you just type in the URL (Uniform Resource Locator), press Enter, and **BOOM** you're there (usually). But this didn't happen by magic, anymore than flipping a switch turns on a light by magic. So what DID happen? Let's break it down step by step. 
 
@@ -30,14 +30,14 @@ Here's how this whole process works:
 9. Depending on the nature of the response received by the client, it may make additional requests to the server and/or other servers. The server, in turn, may also send back additional responses and/or make requests to other servers, depending on the request that it receives. This is the "cycle" portion of the request/response cycle.
 
 
-#### Front-End and Back-End Web Development
+### Front-End and Back-End Web Development
 
 So, how does this all tie in to the connection between Front-End and Back-End web development? Simple: it IS that connection! **Front-End** deals with the **client** side of web development, such as the appearance of the webpage (HTML/CSS) and the different ways you can interact with it (Javascript). **Back-End**, on the other hand, deals with the **server** side, such as receiving the request and creating an HTTP response to send back to the client.
 
 The bottom line is that both Front-End and Back-End are needed for web development; they are two sides of the same coin (Fullstack web development). The request/response cycle and the client/server model illustrate how Front-End and Back-End web development relate to each other. For more information, check out the resources below.
 
 
-#### Resources and Further Reading
+### Resources and Further Reading
 
 * https://flatironschool.com/blog/front-end-vs-back-end-development/
 * https://learn.co/tracks/full-stack-web-development-v6/rack/rack-and-the-internet/how-the-internet-works
