@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The PeriodicTable CLI Data Gem: A Journey in and of Itself"
-date:       2018-11-02 09:57:28 +0000
+date:       2018-11-02 05:57:28 -0400
 permalink:  the_periodictable_cli_data_gem_a_journey_in_and_of_itself
 ---
 
@@ -41,8 +41,8 @@ Thank you for having the patience to get this far in my blog post! Now, I will f
 
 One other thing that I would like to note is that since the elements are as varied as the colors of a rainbow, I decided to let my program reflect that. Let's just say I had a little fun using the Colorize gem...
 
-If you would like to try out the PeriodicTable CLI for yourselves, here is the link to its Git repository: [https://github.com/Sdcrouse/periodic-table-cli-gem](http://)
+If you would like to try out the PeriodicTable CLI for yourselves, here is the link to its [Git repository.](https://github.com/Sdcrouse/periodic-table-cli-gem)
 
-If you just want to see my program in action, here is the link to my walkthrough video: [https://www.useloom.com/share/a51352ba5ccb4f06b11eceeaf403844c](http://)
+If you just want to see my program in action, here is the link to my [walkthrough video.](https://www.useloom.com/share/a51352ba5ccb4f06b11eceeaf403844c)
 
 Overall, this has been a difficult yet worthwhile project. I hope to be able to expand on it in the near future, perhaps in another Learn project! (By the way, if you want to see some more ideas that I have for the PeriodicTable CLI, check out my project's NOTES.md file. Fair warning: it's pretty detailed!) Thanks a lot for reading this, everyone!
