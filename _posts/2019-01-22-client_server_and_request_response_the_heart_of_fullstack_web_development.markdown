@@ -27,8 +27,6 @@ Here's how this whole process works:
 9. *Side Note:* This is only true if the client is a web browser. Other clients are unable to render the response body; command lines in particular will only output it as a string of HTML.
 9. Depending on the nature of the response received by the client, it may make additional requests to the server and/or other servers. The server, in turn, may also send back additional responses and/or make requests to other servers, depending on the request that it receives. This is the "cycle" portion of the request/response cycle.
 
-
-
 ### Front-End and Back-End Web Development
 
 So, how does this all tie in to the connection between Front-End and Back-End web development? Simple: it IS that connection! **Front-End** deals with the **client** side of web development, such as the appearance of the webpage (HTML/CSS) and the different ways you can interact with it (Javascript). **Back-End**, on the other hand, deals with the **server** side, such as receiving the request and creating an HTTP response to send back to the client.
