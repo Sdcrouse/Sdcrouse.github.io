@@ -6,9 +6,7 @@ permalink:  my_journey_through_sql_group_by_and_order_by
 ---
 
 
-Note to Readers
-
-While I will be covering SOME concepts from SQL and SQLite, I will not be covering ALL of them; I would not recommend reading further unless you have a basic understanding of SQL commands. After I give an introduction to SQL and databases and how they can be used in web applications, I will go more in depth about an issue that I struggled with: the difference between GROUP BY and ORDER BY. (I could go into syntax issues that I encountered with other commands, but I would need to put all of that into probably at least three blog posts! Let's save that for another time, shall we?)
+**Note to Readers:** While I will be covering SOME concepts from SQL and SQLite, I will not be covering ALL of them; I would not recommend reading further unless you have a basic understanding of SQL commands. After I give an introduction to SQL and databases and how they can be used in web applications, I will go more in depth about an issue that I struggled with: the difference between GROUP BY and ORDER BY. (I could go into syntax issues that I encountered with other commands, but I would probably need to separate that into at least three blog posts! Let's save that for another time, shall we?)
 
 -------------------------------
 
