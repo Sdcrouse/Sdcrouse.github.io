@@ -8,9 +8,9 @@ permalink:  my_journey_through_sql_group_by_and_order_by
 
 **Note to Readers:** While I will be covering SOME concepts from SQL and SQLite, I will not be covering ALL of them; I would not recommend reading further unless you have a basic understanding of SQL commands. After I give an introduction to SQL and databases and how they can be used in web applications, I will go more in depth about an issue that I struggled with: the difference between GROUP BY and ORDER BY. (I could go into syntax issues that I encountered with other commands, but I would probably need to separate that into at least three blog posts! Let's save that for another time, shall we?)
 
--------------------------------
+**-------------------------------**
 
-Part 1
+**Part 1**
 
 Up until this point, I have been making Ruby variables, arrays, methods, objects, etc. by using data either from the programmer, the user, or scraped websites. That all changes starting with SQL. Short for "Structured Query Language", this allows me to write data to and read data from relational databases. A relational database can be thought of as a collection of tables that can relate to each other, much like how objects in Ruby can relate to each other. There are other database types out there, but I will not get into that here. However, if anyone wishes to know more about database types, you can find some good information here: https://dzone.com/articles/the-types-of-modern-databases .
 
@@ -24,9 +24,9 @@ which returns
 
 By sending this output to #self.new_from_database, you could EASILY make a Cat object out of that! And as the lesson mentions, SQL and databases are handy for applications that have multiple users: to let the user log in, find the user in the database whose information matches the login credentials.  There are other applications as well: everyone (especially those who manage companies and employees) who needs to keep and access a record of people, activities, items, dates, etc, will most likely use a database (and by extension, SQL or a similar language) at some point.
 
------------------------
+**-----------------------**
 
-Part 2
+**Part 2**
 
 Now, what exactly is the difference between GROUP BY and ORDER BY, and how do I use these commands properly? For a while, I had thought that you could use both of them to sort the data; it certainly SEEMED that way at first, but then why would there be two commands that accomplish virtually the same thing?
 
@@ -101,9 +101,9 @@ Side note: I should note that SQLite is smart! When I initially tried out the OR
 
 For more information on the difference between GROUP BY and SORT BY, visit https://www.essentialsql.com/what-is-the-difference-between-group-by-and-order-by/.
 
-----------------------------
+**----------------------------**
 
-Conclusion
+**Conclusion**
 
 So, there you have it! Just to summarize, SQL and databases are critical to the success of a web application, and they are used in many other situations as well. As for GROUP BY and ORDER BY, the main difference is that GROUP BY is used to group together rows containing the same values in a given column; when used with aggregate functions like COUNT, its importance is all the more apparent. ORDER BY, on the other hand, is used to sort the results of your query into a specified ORDER. 
 
