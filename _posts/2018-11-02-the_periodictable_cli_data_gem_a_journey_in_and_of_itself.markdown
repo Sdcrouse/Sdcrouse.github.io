@@ -46,3 +46,8 @@ If you would like to try out the PeriodicTable CLI for yourselves, here is the l
 If you just want to see my program in action, here is the link to my [walkthrough video.](https://www.useloom.com/share/a51352ba5ccb4f06b11eceeaf403844c)
 
 Overall, this has been a difficult yet worthwhile project. I hope to be able to expand on it in the near future, perhaps in another Learn project! (By the way, if you want to see some more ideas that I have for the PeriodicTable CLI, check out my project's NOTES.md file. Fair warning: it's pretty detailed!) Thanks a lot for reading this, everyone!
+
+#### Feedback
+
+I am always open to suggestions for improvement on my blog posts! If you have any feedback for me, please feel free to [raise an issue here](https://github.com/Sdcrouse/Sdcrouse.github.io). I will do my best to get back to you promptly.
+
