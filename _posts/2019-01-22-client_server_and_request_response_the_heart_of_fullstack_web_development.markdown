@@ -35,8 +35,11 @@ Here's how this whole process works:
 
 So, how does this all tie in to the connection between Front-End and Back-End web development? Simple: it IS that connection! **Front-End** deals with the **client** side of web development, such as the appearance of the webpage (HTML/CSS) and the different ways you can interact with it (Javascript). **Back-End**, on the other hand, deals with the **server** side, such as receiving the request and creating an HTTP response to send back to the client.
 
-The bottom line is that both Front-End and Back-End are needed for web development; they are two sides of the same coin (Fullstack web development). The request/response cycle and the client/server model illustrate how Front-End and Back-End web development relate to each other. For more information, check out the resources below.
+The bottom line is that both Front-End and Back-End are needed for web development; they are two sides of the same coin (Fullstack web development). The request/response cycle and the client/server model illustrate how Front-End and Back-End web development relate to each other. For more information, check out the Resources.
 
+### Feedback
+
+I am always open to suggestions for improvement on my blog posts! If you have any feedback for me, please feel free to [raise an issue here](https://github.com/Sdcrouse/Sdcrouse.github.io). I will do my best to get back to you promptly.
 
 ### Resources and Further Reading
 
