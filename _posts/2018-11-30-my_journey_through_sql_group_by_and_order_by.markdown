@@ -12,9 +12,9 @@ permalink:  my_journey_through_sql_group_by_and_order_by
 
 **Part 1**
 
-Up until this point, I have been making Ruby variables, arrays, methods, objects, etc. by using data either from the programmer, the user, or scraped websites. That all changes starting with SQL. Short for "Structured Query Language", this allows me to write data to and read data from relational databases. A relational database can be thought of as a collection of tables that can relate to each other, much like how objects in Ruby can relate to each other. There are other database types out there, but I will not get into that here. However, if anyone wishes to know more about database types, you can find some good information here: https://dzone.com/articles/the-types-of-modern-databases .
+Up until this point, I have been making Ruby variables, arrays, methods, objects, etc. by using data either from the programmer, the user, or scraped websites. That all changes starting with SQL. Short for "Structured Query Language", this allows me to write data to and read data from relational databases. A relational database can be thought of as a collection of tables that can relate to each other, much like how objects in Ruby can relate to each other. There are other database types out there, but I will not get into that here. However, if anyone wishes to know more about database types, you can find some good information here: [https://dzone.com/articles/the-types-of-modern-databases](https://dzone.com/articles/the-types-of-modern-databases).
 
-Also, I’m beginning to see how Ruby and other languages can be used to interact with databases. I could see a Ruby class method #self.new_from_database being used to split a returned string from SQLite. For instance, the Learn lesson "[SQL Inserting, Updating, and Selecting](https://learn.co/tracks/full-stack-web-development-v6/sql-structured-query-language/getting-started/sql-inserting-updating-and-selecting)" has us enter the command 
+Also, I’m beginning to see how Ruby and other languages can be used to interact with databases. I could see a Ruby class method #self.new_from_database being used to split a returned string from SQLite. For instance, the Learn lesson [SQL Inserting, Updating, and Selecting](https://learn.co/tracks/full-stack-web-development-v6/sql-structured-query-language/getting-started/sql-inserting-updating-and-selecting) has us enter the command 
 
 `SELECT * FROM cats WHERE age < 2;`
 
@@ -24,7 +24,7 @@ which returns
 
 By sending this output to #self.new_from_database, you could EASILY make a Cat object out of that! And as the lesson mentions, SQL and databases are handy for applications that have multiple users: to let the user log in, find the user in the database whose information matches the login credentials.  There are other applications as well: everyone (especially those who manage companies and employees) who needs to keep and access a record of people, activities, items, dates, etc, will most likely use a database (and by extension, SQL or a similar language) at some point.
 
-**-----------------------**
+**-------------------------------**
 
 **Part 2**
 
@@ -32,7 +32,7 @@ Now, what exactly is the difference between GROUP BY and ORDER BY, and how do I 
 
 Well, it turns out I was only half right: ORDER BY is indeed used to sort data. However, GROUP BY is another story. Now, every command/method/function that returns a set of data has to return it in some default order, but *it's not the job of every command, GROUP BY included, to actually SORT that data!* But, then, what *is* GROUP BY supposed to do?
 
-I think the best way to explain this is with an example. Check out the table below (courtesy of http://support.sas.com/documentation/cdl/en/sqlproc/63043/HTML/default/viewer.htm#n00fjmxaad37mgn1rszsatq472zs.htm):
+I think the best way to explain this is with an example. Check out the table below, courtesy of [http://support.sas.com/documentation/cdl/en/sqlproc/63043/HTML/default/viewer.htm#n00fjmxaad37mgn1rszsatq472zs.htm](http://support.sas.com/documentation/cdl/en/sqlproc/63043/HTML/default/viewer.htm#n00fjmxaad37mgn1rszsatq472zs.htm).
 
 ![](http://support.sas.com/documentation/cdl/en/sqlproc/63043/HTML/default/images/proc-sql-ex3staff.png)
 
@@ -101,7 +101,7 @@ Side note: I should note that SQLite is smart! When I initially tried out the OR
 
 For more information on the difference between GROUP BY and SORT BY, visit https://www.essentialsql.com/what-is-the-difference-between-group-by-and-order-by/.
 
-**----------------------------**
+**-------------------------------**
 
 **Conclusion**
 
