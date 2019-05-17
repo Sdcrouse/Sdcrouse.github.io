@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My Journey Through SQL, GROUP BY, and ORDER BY"
-date:       2018-11-30 08:22:56 +0000
+date:       2018-11-30 03:22:57 -0500
 permalink:  my_journey_through_sql_group_by_and_order_by
 ---
 
@@ -124,3 +124,8 @@ The absolute LAST thing I will mention is that knowing the order of statements t
 9.	LIMIT
 
 I hope this helps you gain a better understanding of SQL and its applications. Congratulations on reaching the end of this blog post, and Happy Programming!
+
+#### Feedback
+
+I am always open to suggestions for improvement on my blog posts! If you have any feedback for me, please feel free to [raise an issue here](https://github.com/Sdcrouse/Sdcrouse.github.io). I will do my best to get back to you promptly.
+
