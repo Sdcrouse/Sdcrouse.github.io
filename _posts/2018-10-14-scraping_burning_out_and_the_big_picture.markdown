@@ -20,7 +20,7 @@ If that isn’t enough to get you motivated, then look back at your goals for th
 
 So, the next time you get burned out, remember the "Big Picture". And don't give up; you've GOT this!
 
-### Feedback
+## Feedback
 
 I am always open to suggestions for improvement on my blog posts! If you have any feedback for me, please feel free to [raise an issue here](https://github.com/Sdcrouse/Sdcrouse.github.io). I will do my best to get back to you promptly.
 
