@@ -14,7 +14,7 @@ Here's what I mean by client/server and request/response. Whenever you want to a
 
 Here's how this whole process works:
 
-1. You (the user) type in the URL (such as https://computer.howstuffworks.com/internet/basics/internet.htm) into your web browser and press Enter.
+1. You (the user) type in the URL (such as [https://computer.howstuffworks.com/internet/basics/internet.htm](https://computer.howstuffworks.com/internet/basics/internet.htm)) into your web browser and press Enter.
 2. *Side Note:* The URL (also called the URI) is composed of three main parts: the protocol (usually http or https), the host (which is computer.howstuffworks.com in the example above), and the path (also called the resource, which is /internet/basics/internet.htm in the example above).
 2. The client (your web browser, in this case) creates an HTTP request in the form of a String - in this case, a GET request, which asks a server for data. 
 2. *Side Note:* The request is made up of two parts: the request line and the request headers. The request line contains the method/request type (usually GET) and the protocol and path parts of the URL. The request headers include the host, language, cookies, and other metadata.
@@ -39,12 +39,12 @@ I am always open to suggestions for improvement on my blog posts! If you have an
 
 ## Resources and Further Reading
 
-* https://flatironschool.com/blog/front-end-vs-back-end-development/
-* https://learn.co/tracks/full-stack-web-development-v6/rack/rack-and-the-internet/how-the-internet-works
-* https://learn.co/tracks/full-stack-web-development-v6/rack/rack-and-the-internet/video-review-how-the-web-works-pt-1
-* https://learn.co/tracks/full-stack-web-development-v6/rack/rack-and-the-internet/video-review-how-the-web-works-pt-2
-* https://learn.co/tracks/full-stack-web-development-v6/html-and-css-continued/web-fundamentals/how-the-web-works
-* https://computer.howstuffworks.com/internet/basics/internet.htm
-* https://www.webopedia.com/DidYouKnow/Internet/Web_vs_Internet.asp
-* https://www.webopedia.com/TERM/T/TCP_IP.html
-* https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+* [Learn's article "Front End vs. Back End Development"](https://flatironschool.com/blog/front-end-vs-back-end-development/)
+* ["How the Web Works" (Learn Full Stack Web Development V6 lesson)](https://learn.co/tracks/full-stack-web-development-v6/html-and-css-continued/web-fundamentals/how-the-web-works)
+* ["How the Internet Works" (Learn Full Stack Web Development V6 lesson)](https://learn.co/tracks/full-stack-web-development-v6/rack/rack-and-the-internet/how-the-internet-works)
+* ["Video Review: How the Web Works, Part 1" (Learn Full Stack Web Development V6 lesson)](https://learn.co/tracks/full-stack-web-development-v6/rack/rack-and-the-internet/video-review-how-the-web-works-pt-1)
+* ["Video Review: How the Web Works, Part 2" (Learn Full Stack Web Development V6 lesson)](https://learn.co/tracks/full-stack-web-development-v6/rack/rack-and-the-internet/video-review-how-the-web-works-pt-2)
+* ["How Does the Internet Work?" on HowStuffWorks.com](https://computer.howstuffworks.com/internet/basics/internet.htm)
+* ["Web vs Internet" on Webopedia](https://www.webopedia.com/DidYouKnow/Internet/Web_vs_Internet.asp)
+* ["Definition of TCP/IP" on Webopedia](https://www.webopedia.com/TERM/T/TCP_IP.html)
+* ["List of HTTP status codes" on Wikipedia](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
