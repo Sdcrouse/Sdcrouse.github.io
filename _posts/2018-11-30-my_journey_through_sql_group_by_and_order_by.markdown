@@ -14,7 +14,7 @@ permalink:  my_journey_through_sql_group_by_and_order_by
 
 Up until this point, I have been making Ruby variables, arrays, methods, objects, etc. by using data either from the programmer, the user, or scraped websites. That all changes starting with SQL. Short for "Structured Query Language", this allows me to write data to and read data from relational databases. A relational database can be thought of as a collection of tables that can relate to each other, much like how objects in Ruby can relate to each other. There are other database types out there, but I will not get into that here. However, if anyone wishes to know more about database types, you can find some good information here: [https://dzone.com/articles/the-types-of-modern-databases](https://dzone.com/articles/the-types-of-modern-databases).
 
-Also, I’m beginning to see how Ruby and other languages can be used to interact with databases. I could see a Ruby class method #self.new_from_database being used to split a returned string from SQLite. For instance, the Learn lesson [SQL Inserting, Updating, and Selecting](https://learn.co/tracks/full-stack-web-development-v6/sql-structured-query-language/getting-started/sql-inserting-updating-and-selecting) has us enter the command 
+Also, I’m beginning to see how Ruby and other languages can be used to interact with databases. I could see a Ruby class method #self.new_from_database being used to split a returned string from SQLite. For instance, the Learn lesson [SQL Inserting, Updating, and Selecting](https://github.com/learn-co-students/sql-insert-select-update-code-along-v-000) has us enter the command 
 
 `SELECT * FROM cats WHERE age < 2;`
 
@@ -109,7 +109,7 @@ So, there you have it! Just to summarize, SQL and databases are critical to the 
 
 Also, as I hinted at the beginning, be CAREFUL to use proper syntax; not everything works in SQL or SQLite the way you think it might. For example, you can put COUNT, SUM, and other aggregate functions in the ORDER BY clause and the HAVING clause, but *not* in the GROUP BY clause or the WHERE clause (at least in SQLite).  I would go into further detail about things like this, but that is a subject for another blog post (or two or three...). I could also go into subqueries, but I think I've gone far enough down the rabbit-hole for one day.
 
-The absolute LAST thing I will mention is that knowing the order of statements to use in a SQL query has helped me a lot. Here is that order, courtesy of [Learn's "Grouping and Sorting Data" lesson](https://learn.co/tracks/full-stack-web-development-v6/sql-structured-query-language/table-relations/grouping-and-sorting-data):
+The absolute LAST thing I will mention is that knowing the order of statements to use in a SQL query has helped me a lot. Here is that order, courtesy of [Learn's "Grouping and Sorting Data" lesson](https://github.com/learn-co-students/sql-grouping-and-sorting-readme-v-000):
 
 1.	SELECT 
 2.	FROM
