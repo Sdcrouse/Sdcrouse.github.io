@@ -39,11 +39,11 @@ I am always open to suggestions for improvement on my blog posts! If you have an
 
 ## Resources and Further Reading
 
-* [Learn's article "Front End vs. Back End Development"](https://flatironschool.com/blog/front-end-vs-back-end-development/)
-* ["How the Web Works" (Learn Full Stack Web Development V6 lesson)](https://learn.co/tracks/full-stack-web-development-v6/html-and-css-continued/web-fundamentals/how-the-web-works)
-* ["How the Internet Works" (Learn Full Stack Web Development V6 lesson)](https://learn.co/tracks/full-stack-web-development-v6/rack/rack-and-the-internet/how-the-internet-works)
-* ["Video Review: How the Web Works, Part 1" (Learn Full Stack Web Development V6 lesson)](https://learn.co/tracks/full-stack-web-development-v6/rack/rack-and-the-internet/video-review-how-the-web-works-pt-1)
-* ["Video Review: How the Web Works, Part 2" (Learn Full Stack Web Development V6 lesson)](https://learn.co/tracks/full-stack-web-development-v6/rack/rack-and-the-internet/video-review-how-the-web-works-pt-2)
+* [Learn Article: "Front End vs. Back End Development"](https://flatironschool.com/blog/front-end-vs-back-end-development/)
+* [Learn Lesson: "How the Web Works"](https://github.com/learn-co-students/how-the-web-works-v-000)
+* [Learn Lesson: "How the Internet Works"](https://github.com/learn-co-students/how-the-web-works-readme-v-000)
+* [Learn Video Review: "How the Web Works, Part 1"](https://github.com/learn-co-students/rack-video-review-how-the-web-works-pt-1-v-000)
+* [Learn Video Review: "How the Web Works, Part 2"](https://github.com/learn-co-students/rack-video-review-how-the-web-works-pt-2-v-000)
 * ["How Does the Internet Work?" on HowStuffWorks.com](https://computer.howstuffworks.com/internet/basics/internet.htm)
 * ["Web vs Internet" on Webopedia](https://www.webopedia.com/DidYouKnow/Internet/Web_vs_Internet.asp)
 * ["Definition of TCP/IP" on Webopedia](https://www.webopedia.com/TERM/T/TCP_IP.html)
