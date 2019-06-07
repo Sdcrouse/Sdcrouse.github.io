@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CSS Media Queries from a Rubyist's Perspective, Part 1: The Basics"
-date:       2019-06-06 03:22:01 +0000
+date:       2019-06-05 23:22:03 -0400
 permalink:  css_media_queries_from_a_rubyists_perspective_part_1_the_basics
 ---
 
@@ -142,5 +142,9 @@ I am always open to suggestions for improvement on my blog posts! If you have an
 7. [Mozilla's instructions on how to target media features](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Targeting_media_features)
 8. [Mozilla's documentation on the "color" media feature](https://developer.mozilla.org/en-S/docs/Web/CSS/@media/color)
 9. [Mozilla's instructions on how to use the "and" keyword](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Combining_multiple_types_or_features)
-10. [Mozilla's description of logical operators](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Logical_operators) 
-11. [Mozilla's article "Using Media Queries" (includes many of the above references)](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+
+## Additional Resources
+* [Mozilla's description of logical operators](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Logical_operators)  
+* [Mozilla's article "Using Media Queries" (includes many of the above references)](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+* [CSS @media Rule, Syntax, etc. on W3Schools](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
+* [CSS Media Queries on W3Schools](https://www.w3schools.com/css/css3_mediaqueries.asp)
