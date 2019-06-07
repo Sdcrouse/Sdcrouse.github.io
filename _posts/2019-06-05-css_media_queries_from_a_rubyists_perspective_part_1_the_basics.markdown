@@ -131,7 +131,7 @@ end
 You can use the "and" keyword to have a media query look for a device with a certain media type and one or more media features (like we did above), or you can have the media query look for a device with multiple media features *without* specifying a media type. However, you can *not* have the "and" keyword separate *multiple media types,* because a device only has *one* media type. (The only exception to this is to write something like `@media all and screen {...}`, but that just shortens to `@media screen {...}` anyway.) See [Mozilla's instructions on how to use the "and" keyword](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Combining_multiple_types_or_features) for more information.
 
 ## Conclusion
-By now, we know the purpose of media queries, and we have a better idea of the subtle difference between @media rules and media queries. We have also covered a lot of syntax: @media, media types, media features, and the "and" keyword. The one thing we haven't yet covered from our example @media rule is the "only" keyword. I have chosen to save "only" and a few other keywords and logical operators for **Part 2** of this blog post; this is where things started getting *really* confusing for me, and where a good understanding of Ruby's conditional statements came in handy. 
+By now, we know the purpose of media queries, and we have a better idea of the subtle difference between @media rules and media queries. We have also covered a lot of syntax: @media, media types, media features, and the "and" keyword. The one thing we haven't covered from our example @media rule is the "only" keyword. I have chosen to save "only" and a few other keywords and logical operators for **Part 2** of this blog post; this is where things started getting *really* confusing for me, and where a good understanding of Ruby's conditional statements came in handy. 
 
 If you're ready to take a deeper dive into the syntax of media queries, read on in **Part 2** (coming soon)! 
 
@@ -153,6 +153,6 @@ I am always open to suggestions for improvement on my blog posts! If you have an
 
 ## Additional Resources
 * [Mozilla's description of logical operators](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Logical_operators)  
-* [Mozilla's article "Using Media Queries" (includes many of the above references)](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
-* [CSS @media Rule, Syntax, etc. on W3Schools](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
+* [Mozilla's article "Using Media Queries" (which includes many of the references above)](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+* [The CSS @media rule, syntax, etc. on W3Schools](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp)
 * [CSS Media Queries on W3Schools](https://www.w3schools.com/css/css3_mediaqueries.asp)
