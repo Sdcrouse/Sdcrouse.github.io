@@ -34,7 +34,15 @@ One important thing to note is *where* to put your media queries. If you have a 
 Now, let's look at the @media keyword. @media, and everything after it, is something called a "conditional at-rule". This is what encompasses your media query and its CSS rules. According to [this answer to a Stack Overflow question about nesting @media rules:](https://stackoverflow.com/questions/11746581/nesting-media-rules-in-css/11747166#11747166)
 > ...the media query itself is the component that follows the `@media` token, whereas the rule is the entire block of code consisting of `@media`, the media query, and the rules nested within its set of curly braces. 
 
-(Incidentally, "media" refers to the devices using your website; "medium" is the singular for one device.) Written in Ruby pseudo-code, a media query (or more accurately, an @media rule) would look something like this:
+(Incidentally, "media" refers to the devices using your website; "medium" is the singular for one device.) Here is the basic structure of an @media rule:
+
+```
+@media [media query] {
+  /* CSS styles */
+}
+```
+
+Written in Ruby pseudo-code, it looks something like this:
 
 ```
 if (medium/device satisfies this condition)
