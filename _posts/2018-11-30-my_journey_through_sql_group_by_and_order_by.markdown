@@ -123,6 +123,8 @@ The absolute LAST thing I will mention is that knowing the order of statements t
 
 I hope this helps you gain a better understanding of SQL and its applications. Congratulations on reaching the end of this blog post, and Happy Programming!
 
+**-------------------------------**
+
 **Feedback**
 
 I am always open to comments and suggestions for improvement on my blog posts! If you have any feedback for me, please feel free to [raise an issue here](https://github.com/Sdcrouse/Sdcrouse.github.io). I will do my best to get back to you promptly.
