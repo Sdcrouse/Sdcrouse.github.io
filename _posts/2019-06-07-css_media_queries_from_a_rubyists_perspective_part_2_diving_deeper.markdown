@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CSS Media Queries from a Rubyist's Perspective, Part 2: Diving Deeper"
-date:       2019-06-08 02:23:14 +0000
+date:       2019-06-07 22:23:15 -0400
 permalink:  css_media_queries_from_a_rubyists_perspective_part_2_diving_deeper
 ---
 
@@ -150,7 +150,7 @@ Since *every* device falls under the "all" media type, the first part of that co
 Check out these resources for more information:
 
 * [Mozilla's description of logical operators](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Logical_operators) 
-* [Mozilla's instructions on how to invert a media query's meaning](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Inverting_a_query's_meaning)
+* [Mozilla's section on how to invert a media query's meaning](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Inverting_a_query's_meaning)
 
 ## The "," operator and complex media queries
 
