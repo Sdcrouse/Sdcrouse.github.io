@@ -35,11 +35,11 @@ The bottom line is that both Front-End and Back-End are needed for web developme
 
 ## Feedback
 
-I am always open to suggestions for improvement on my blog posts! If you have any feedback for me, please feel free to [raise an issue here](https://github.com/Sdcrouse/Sdcrouse.github.io). I will do my best to get back to you promptly.
+I am always open to comments and suggestions for improvement on my blog posts! If you have any feedback for me, please feel free to [raise an issue here](https://github.com/Sdcrouse/Sdcrouse.github.io). I will do my best to get back to you promptly.
 
 ## Resources and Further Reading
 
-* [Learn Article: "Front End vs. Back End Development"](https://flatironschool.com/blog/front-end-vs-back-end-development/)
+* [Flatiron's article: "Front End vs. Back End Development"](https://flatironschool.com/blog/front-end-vs-back-end-development/)
 * [Learn Lesson: "How the Web Works"](https://github.com/learn-co-students/how-the-web-works-v-000)
 * [Learn Lesson: "How the Internet Works"](https://github.com/learn-co-students/how-the-web-works-readme-v-000)
 * [Learn Video Review: "How the Web Works, Part 1"](https://github.com/learn-co-students/rack-video-review-how-the-web-works-pt-1-v-000)
