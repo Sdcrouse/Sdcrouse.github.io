@@ -1,13 +1,14 @@
 ---
 layout: post
 title:      "How to Edit Learn Lessons and Labs"
-date:       2020-01-25 01:02:38 +0000
+date:       2020-01-24 20:02:39 -0500
 permalink:  how_to_edit_learn_lessons_and_labs
 ---
 
 **Introduction:** Have you ever worked on a lesson or a lab, only to realize that it didn't look quite right - like maybe it had a couple of incorrect instructions, a sentence or two that could be phrased more clearly, or even a missing test? It happens. The people who write Learn's curriculum are (just like the rest of us) imperfect; as such, there are going to be a few problems with the lessons here and there. But how do you fix them? You could Raise an Issue, but that might take a while to get fixed, depending on how urgent the issue is and/or how easy it is to solve. Thankfully, there's another, arguably better option: opening a pull request on the lesson/lab itself! In this post, I'll show you how to do just that (*Hint: Just treat it like any other repository*).
 
 ## Open up the lesson's GitHub repository
+
 Let's use the **Basic Nested Forms** lab as our example. Suppose we wanted to add a Summary at the top:
 
 <img src="https://lh3.googleusercontent.com/LDIdcLTaSe173IQA3AoCI9cFFiR9v0ZbDzDapEvZXQK-u-GW0mA_4vt4pTHhIlCKQzEGJ2w0P4UG9TZDGa1hV0q-eUO-LHs6V9s_9IArlH4KeELokKMlf4cihSeRCZcflF6t6tJ2xwRTt5cpEk2sMDvlsyKWbTjUeZmxJpZZwQJFvD2fWyys0iwWEziFkChXNVUDWxyopIzBg-TpeumOLHc4H5Gg9bzHVLLhiOvfTmBz7joKqg-nAQc-cxmMCPE4B3VgAXRqXRzz57uQ96jnqF5avH8OUPhGD7BoJfWQsnaHdkUsK1iBjdofHWQRE3AHMpQZwbFBa4GsY-jh3SqnY04SaHDFDsTUcPb5CUxC3C2kQYr9Wg6my5OKgZ2lxhxsBX9SULzhOKxU2IQ0xuw41EJlZgn9Ci6IzBZk0VwBAK_6tfjvOl_MJbXq05tGbyI5aqza5i6RGlEUiQIs00MSmw2VScqKs12qrl5GMOCCtBqXysrPKBR293k-yb9FtybU4zXjUNBq_D2Hlz5e8NBzCh1MFf-1Hu8_yC_bEx70qSgFn3beJPj_BZc5RyJEUrULazm1fShTOJJCu2GgeGeneJJvlYfg_t57tAfFCWCvrZ8qNrCSeQyy0JjHVrIlBdH5gbVZMMr944T8pPdGhzUu61IT6PkLWDi6gRS_DYzqFEUVuGbUeNHdBqA=w1341-h703-no" alt="Lab with Summary Suggestion at Top" width="600" height="300" />
@@ -29,6 +30,7 @@ This will take you to the correct repository:
 > **Side Note:** This only applies to labs and codealongs, which have a blue **Open IDE** icon at the top. For regular lessons, which have a blue **Sandbox** icon, you can click on the **Open in Github** icon or the **Raise an Issue** icon; either one will take you to the correct repository.
 
 ## Fork the lesson
+
 > **Side Note:** These next few steps are a review of forking, cloning, editing, committing your changes, and pushing to Github. If you want to skip all of that, go to the **"Review your changes on GitHub"** section.
 
 Click the **Fork** button in the top right corner:
@@ -44,6 +46,7 @@ Just click on your profile icon and name, and wait a few seconds to be redirecte
 <img src="https://lh3.googleusercontent.com/mjD2kFWb9XB91w_1Py1vrzjrSZbpL2odteJHZEbEfGVVbUR-r2Hou4_Fw1wcaFCU9_ol9_Ht_4cLnUlzQPrrksUYwwZTIQ_YaE06_M1p5rgovV0PUnYqPgob-ou49kFj3o0fDLtbhYt04YQoMYBSNZ5pjEe19VQfx43oAviiUjdEt29-ev6awQxgZH8Tcli4QUgCKCmJmS-MvvL8JwGHd8SW83NTRxHA9TGhnBcJ6gC0-UJ0Kyd80zk0LFhjb6G5wd1uwtXaHWCexT4rDP-stCYoZUWTf9YgcK7P0wV6q0miK8xks5rESLLwgbEIHuxXoMk3_UWkmjF5Ni9_yygh1Zbs1d3In2503tkBfNOgXex14CnmBHjxSJ5dmzVrWJP0yFPCOPFuLRNSu0PMm9YlvWSbrYS5rEZxbVvM_14QsJh_OqNw59-XsDEpQ7jgt87rsJ_R9QhyBd04U7QyQCRo3Yv1LHrXjfSWHXhzCa-dUvZgKb-5p6Bm43qEzWr0i8Vct5kZ8haXkg5U6ZvGEBcYJUE7VkZdivNWbVOLjdIAZBpboshIvf-lb23XndtBevux1iC4eUqnu5U-W0DpLMmRiflrzrV2na8P4JGbcxNVkdi0D0K5R_qrFhb82OxS-0JoabmN9dO95AN03NCTLRBYVuRGtOHejnn4kXUXH9zA4-Ylja6ieLTgiw4=w1145-h745-no" alt="Fork of Lab Repository" width="500" height="325" />
 
 ## Clone the lesson into your IDE or local environment
+
 Click the **Clone or download** button in the top-right corner, then click the clipboard icon in the pop-up window (I use SSH, but you can use HTTPS if you'd prefer):
 
 <img src="https://lh3.googleusercontent.com/aHHaWrmJD5qrwEZs6cPACeZqH2pHVlrIHtL5wFYhnU2n-EZQ1aM3xBO2EbcwLDp0P3Ol4zegdm83qoCq7VGtiTWZ5FcK7N6xFHEBfw-M0-_C4wqC_W0xKM4jqLus5egrr1SRFMd-bDzE1HZBgmcSDBxlfw7SVETEhWFdVtXrjtOdZMN6X-1qCbDC2ma4Lp84AHxLFnBfR-rv5sw3_btslaONjf0Tp7p2Nr0ZYGhydd6tIlULLgDPwFvRML2XLoxRJOF26BQ1-yfB56WScDpzdfplYvdFRX7du0JDN8QZghFAbURKRjpTsrmqf3LSQ55mpoflQQk-tEzt5Rs-mT8aUFSqxe56fr0xyTb4R8iEvgtw6qGchWy0WqQ8drgjGXTXe8MhTz6h0ceu8AR7PUTsmpNXd_bhyNYlvrBGKBALMr8Wcd9JoFt8t6xAofFy3hLvouuZAsgE3LJJuuxA5Val_mTWHCRR0X0CKc7K8EAu3VQrX9NX9OuYw3U8_TkT_62oipGoC-O_GuTMNMkJdP6TC-OywAZ5LJJFwevzWdLpxFU7vCWf0YPi6pLIHEjyI9HQCt4OhcveFmRA-tHoU7U4GEv3iYhId-5y91mzX2xQ3tviSbPAZ3gZwZV9kTgC55-UiCPbjMsWydlm39rSmktp8co1ohzbHCjcI4kQ5m6DPUeo_qih6jHiy3s=w480-h320-no" alt="Clone or Download Button and Pop-Up" />
@@ -53,6 +56,7 @@ Now, go to your IDE or local environment, and write `git clone [paste-your-repo-
 <img src="https://lh3.googleusercontent.com/Y8eyAGa6CLABwR_mwrP6nkrQntbytSA7hyH_bLMTKQFxwn-IQdXexTNXOg3pYXCwxRrct0sUrV-SdTLzBRgvdpnn9LnjvcisEO7wQdewWn1YDHUrOkqri-svxMWF-Fv7NHTYTELgWp5Dgo0wQc99tNYsmzrSWU8DY1QHv3-Yu9G0HgDQtSJDjOGmWJdv438JzJ4ZUXQVYMQ2hwhWnTkOIw5YPwS6GhO4k6OXBapVN4qsGw3MoS01TpsoM4g9AS3dgYovEKGgTU4v4_tFSUzMOKB5lokBGdG9P9_LiHV_orJXUkm-scVuIH1XEqEjs526ek9T5jVBPI0TUe8XNRhg6refxW70usW-JecixsavLVv1IuSUlKrM5jEfih21XC7bv-JFihHWkW-Ei0QaPFuIz0CRUr9UxrYCNCOQQZub84sihRclbZ6TdVW5jfK6sKTtp5b1sSepSiEremziWpkHY8pE2E4CYI5Sq6xQXrElQKF2M_I2ipdwvXv_jNKTN7pWIvV_tqpiCq7vmiFGf-ChxkaVltJZARBuwKFDH-iXE-Q0zfo_A9KmysdrWD6wddEQ8-6wjiSVJIVI_RCsAhYDAgYZcQ5jlhVaJ0PEyj_SEWuK07LZinKWRyd3U-yvabHV6eUFssAYsOq9yujl0dM_s11m-4Uymy3yeSsGE4bXHiB7oYW3jSfu0nk=w710-h300-no" alt="Command terminal with 'git clone' and 'cd' commands" width="568" height="240" />
 
 ## Make your changes to the lesson or lab
+
 Let's add a Summary to this lab's README.md file:
 
 <img src="https://lh3.googleusercontent.com/v5TU12kTcYnGWcVJgEdDGfqysvX-UniHB2RtoYYP9-Y7Ev05kR9GuryVpWmlqfslpHljLRV5LNLHX9TDsiPK7mLvrrpZNbnGYP83_pLmdqYKT0DKHCnCkM92EzPZuMNrKIRk3tOnn1O32ijY4DjoxKPOWwGUe1rlZC6d6brFxAy2ptvIyn_lFRNcuIYxVGnXQL2i94fpTAyeItGhTWPWtH0OUg0yDvtbjlxm0XnKKCLFYr-a7JHdP-K7GY-_5HSZi_jafsSLyFH2tWAtyrcbRR_zWGYWLISmAaG2nu4lspog01g1EQMMoGaOie4ajCN-F9z5QYXiHhESdEUYAIfgR7eShUtK1AuBi4My8xQK9XSullNMUF0o0yo6tOU2m8IiNjl3ItFUaoKc2Gq8vx8RR9GRtRO4_AUil9uabpybdJkZg-4S_H2OHXfM9KKSS94TuGEk2-zU70aqF-1pBfnx5fc7oBlDxbg2ejJQ8GImNFDfNoebApODykO9JwNKezfdzSew--lT7-GgXJbpy7DWfqG81dvqfRik_H4BXQ7-_i9aLtRrTrEVdrxKSUDwFGz87dqiW1HN8jq_2eqx0N0FBPHV-11KAALzoQiZg8YpSPSKE3f0NVLTty-cfi5TIR8lmwOBU7UkLfZA_IP_ssRRsv91jufBY-nJZhu9vPI913So28km4OzOzQc=w1333-h630-no" alt="Summary added to lab Readme" width="666" height="315" />
@@ -62,6 +66,7 @@ Let's add a Summary to this lab's README.md file:
 That all looks good, so we can move onto the next step.
 
 ## Add, commit, and push your changes
+
 Let's stage our changes with `git add .` and commit them with `git commit -m "Your commit message here"`:
 
 <img src="https://lh3.googleusercontent.com/SoDbO3BH3A_T6SvSdOUcec7hQgPRCskHI-jRvHwYeZvkPNiBzvyqKmQWjaNK-hHQ_XDk6DRtAUgs6WlDxN4dR7vxVRqQbI8ZNXbg48KOLXpUBAI1ohd7ATVbH97yY8RHBfGjR6x3IfxMQ0hcw_rtjgZnLqUq4nPUc5VZo8UiF_41AM4QRyCPBIH5bPt32URS6zkfxuh7_Y9P9u5JPvZ56tt6uVUjjQ6pDaCb6D0bYZmg62dnGAKTFiqdixJ63GMjniU3R4JjALSzbJwj03b-HShBvkVMzw2YgviXVoWQLokBNZUCOnZPUQsWzJCf_cgy1tZQnEpIplE8l5O65y7fBRILAAf45_oSSZjdeahtOcKw6geerb5poctUo42uYq4wm6kijJk0wUsveUJ46yCXyFGfPBd7SkKGSkMT90ZBmVPEhNw0xHlQ4jkOB-EK7sgFzxPKsPlZeE7zOPwEYm-iRUpHXYJ7NXSJb406ZWKSHhJJaFgnOdR24201DuSM-QFxvwpFu1j1O1lbGaSEN_pFlscJOd5a170VKkmMqS3TYuIrsvEnA_t2j_zAxdMouRzyue6SQ8cedT_aZPeymO4wz97qzgPcgKjiNBGHwFXobjuT7be92B4vaBH5kecu1N5FtEIBZziSfJ0eJdfBdtb1zmXoWf1QX0r0UxC6PdafWoGUpPVD6HUtVxY=w700-h230-no" alt="Adding and committing changes" />
@@ -75,6 +80,7 @@ Finally, push your changes back to your repository with `git push`:
 <img src="https://lh3.googleusercontent.com/vXxa40em-Tbg0XunbSVqD7HEiqrNNlZJIb8UOOnN1ysfcY8KZH2USn1y1DxB-n8NAHRv1toM49Zvfe0v31HUUISGMcxQPNfbkK-avK8mqUqOkMz0MGjRSr5-nV1SDRuYcog51mTT1NBoI_U-M_KdxEI1U-_OWknEaIuLwAtWPkBW0N-eeDM--E4fO8dJXIX8eWk3z7PlR1urd8rOX9lJrUQpuKFsPx17wf0iO030JhO2Ddx4zsGr_i7yBwe97OSiRgRE37azLLprtGJmo_U3bMF-U5uzcGVLOND04WhSGWvzdKvK8TOOwX1yP4CcJT1BM9n_v9zWnBo16RQajcTL-OZC5Y5UwnZmlu6qJw_ORILWEQjDEdFSbaCERmWWfuqAAljg8rRHILPTpzKtQk0JhoRu28Il9WxnqMYocSkA5PtZI5DBZ4I4tHkNb2ChUopLPUUFkNAKv61Kl4SPEdPgKAc4fMbWJMxZKzjMQC22vphUFtk2hN_LwOectYVeB4n2CSo-Btm5cb1japg3Uv7EfhiuTjkFMOrsmxHy_nfncOzTUAqqijM6WJzC-XQgeIDxoZtOd2SS_3aXBYaW5XhIYaWtvf-46aUl-oJA60C9jI3ER03kCEboo2FxA8hwGgAp61qx-YfLDPpXWSETn5jaLGa3lHZyH3BLWMkpI60IB7pCK-RIVMK19Q4=w751-h301-no" alt="Using Git Push" width="480" height="205" />
 
 ## Review your changes on GitHub
+
 Go back to your GitHub repository and refresh it. If you pushed your changes successfully, your repository will show your last commit, and it will be at least one commit ahead of the original lab's repository:
 
 <img src="https://lh3.googleusercontent.com/W8b_pXqheF8fhTG1S_ApJwROqJqdSoLrfdueVCtRaI3YMuI50rr5gua18L1lPHbUHOJfn9jdUpgi44aq9WirSg0UOVMGrVpDMTGYpeesNDpV0QQeir2QOULq--WD5vcPgJUGX1BG6FXGmCA5cncOJqCzdI6uMaO55VQ0zSCqmIVsoapjCn27DcCjkxh_IvfCBfZmRgPI3ug9Dq2BzbA3s9af-d8r12HpGOpY9LXXaxJZwN-Ks9zf1QKQ8MZ5djXR-bklazUzWMNcosYHXlTDBJn8SGNGkrBcsM-jb7qCQnOoBjYatmmypROE6-l10FVZYHPv-UQeAKTqKM2nTgRLk3xrC48-wAmp_QLr0YRbVK4F3vWzTMJsl9psmrNt97Cdl9djGmyhc2kY3A16tA5EANfpC6Doz52Qc9cGKJRkhxiCFRr5rUvI_taIxV3j1jvJb6ToniSpsrfdDqhnduFuAhbCf00XxPA4qZE5B6X5XT62aE4utwBrNa5I_Ia788Rw75AMuUnJrL_Mtm-5ifVj2q0jBhGhqKug5qNI9-HuiKHB6FjyJ3Ir0AATDhE_g5BrF8oMzYvWHPBaA7t03AfKqj20FLxDrAWMHYiCXS7jUpE9938U1ZjPgSXXFA8Hzyr2GJ07eZS-k-sJ6YPZtEDtpWo07ewyScZe520K2iQJ5hRl7eqxVik-Sp8=w1131-h601-no" alt="GitHub repository with latest commit" width="565" height="300" />
@@ -86,6 +92,7 @@ Since we changed the README.md file, we can see our changes by scrolling down:
 That looks good, so let's move onto the next step. If you want to change something else, then add, commit, and push your changes before coming back here.
 
 ## Open a Pull Request
+
 We are finally ready to make a pull request! To do this, click on the **New pull request** button:
 
 <img src="https://lh3.googleusercontent.com/GPPGoKaxcT9hALwHqJr6ZlngUTXWJWGT9e3KkYvkCc60CzlKPqw6ei5VVZdYj2y-fBVpnqhgY-pMNs30Y08xJ6xia3rpc2cOr0keJqLh0r-LmiMV4mtK7oLNmvi4TqDy-sxKwwZlH1heCTMsIP8I1_XdC3tuaiFobHjwE5gufGH6IKObl6oHKRPiweAIctLSDKdzTjzDi1DfgfLO5d4P5x5twQFSjgvqvU-P1ZPfeEgyk74u9G-EAxC-lV0L2GuYTW-Hjvmj9B0CpnzLKB9PGP8dLoscvFOJnD2ZAl_IRvpHHQ3vSTIaZtnOozZu07CD2X0VV1bjbDwrMEuRl-1Pq04cli--Jb8QJDKnXWlKMCeIPWfW0VDJQ_IBpbqWRTliR-QmyXInxciRje8d5N-SKAFN0JHuJw8SzcE-JQZqq_gm_J_jNYsDKMeqxQe1f8udjiJwKS0RZGosLrmSEVDZJN_ycdFluehdVzrElnVIe2KRwYs_foPzhoPWaWmHOxhzpk18yke3nGhcpUNhwL5J8d2_rN0HZFgugyN7K7ZZsx_0THHC2LV0Nxsd0sjHsXsIIsC-HaV0WL8PcWw6ZckxhaxEWcOH8fdi7X1nmwLAUKILDWiAZDRYFMn3JyTYZdHvK1CB7a3Y3SE9rCM-yJusRUXIBp_2gyEUaIV2yFdzZcdEvZs517Tbrr8=w1080-h326-no" alt="New pull request button" width="540" height="163" />
@@ -111,6 +118,7 @@ It will also create a link to the pull request on the raised issue's page:
 Cool! There's just *one* more thing that we may need to do.
 
 ## Make additional commits as needed
+
 Suppose that you made a mistake with your pull request, or you've realized that you forgot to make an important change. What do you do, open another pull request? Thankfully, the answer is no. Just make a new commit, and push it to GitHub. That commit will be added to your pull request *automatically*.
 
 **That's it!** Now you can make changes to any lesson/lab that you want! (But please make *good* changes; be nice to the Learn team.)
@@ -126,8 +134,10 @@ To be fair, if you don't know how to solve the problem, it's probably better to 
 So, you'll wind up helping out a lot of people just by submitting a pull request. Why not give it a shot?
 
 ## More Information
+
 * [Pull request basics](https://github.com/learn-co-curriculum/github-pull-request-basics)
 * [How to make a commit with a message and description](https://stackoverflow.com/questions/16122234/how-to-commit-a-change-with-both-message-and-description-from-the-command-li)
 
 ## Feedback
+
 I am always open to comments and suggestions for improvement on my blog posts! If you have any feedback for me, please feel free to [raise an issue here](https://github.com/Sdcrouse/Sdcrouse.github.io). I will do my best to get back to you promptly.
