@@ -136,6 +136,7 @@ So, you'll wind up helping out a lot of people just by submitting a pull request
 ## More Information
 
 [Pull request basics](https://github.com/learn-co-curriculum/github-pull-request-basics)
+
 [How to make a commit with a message and description](https://stackoverflow.com/questions/16122234/how-to-commit-a-change-with-both-message-and-description-from-the-command-li)
 
 ## Feedback
