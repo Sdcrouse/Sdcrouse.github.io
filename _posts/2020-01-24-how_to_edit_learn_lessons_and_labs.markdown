@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "How to Edit Learn Lessons and Labs"
+title:      "How to Edit Lessons and Labs"
 date:       2020-01-24 20:02:39 -0500
 permalink:  how_to_edit_learn_lessons_and_labs
 ---
