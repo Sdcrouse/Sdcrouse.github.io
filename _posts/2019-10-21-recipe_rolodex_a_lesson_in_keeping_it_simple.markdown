@@ -12,7 +12,7 @@ permalink:  recipe_rolodex_a_lesson_in_keeping_it_simple
 
 As an example of what the Recipe Rolodex looks like, here is a screenshot of the login page:
 
-<img src="https://doc-04-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/2n1ldos6pq055ek6jlh3kntfirp6n3l0/1580083200000/18375684649449857957/18375684649449857957/1hnYr5LjZf-kbUBqGiVqLcKkwXxPoZT8l?e=view&authuser=0&nonce=0e6fk5pfbr5uk&user=18375684649449857957&hash=45qpst1fh07jk134g6lk31co70jsua52" alt="Recipe Rolodex Login Page" width="800" height="400" />
+<img src="https://doc-04-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/pc8tskdshjjf4rtobdufh03tguo8ggce/1581395400000/18375684649449857957/18375684649449857957/1hnYr5LjZf-kbUBqGiVqLcKkwXxPoZT8l?e=view&authuser=0&nonce=jukvlo3glstk0&user=18375684649449857957&hash=ci4q45c9nf2orn6gbo0c1imgse4gp163" alt="Recipe Rolodex Login Page" width="800" height="400" />
 
 The Recipe Rolodex is a CMS (Content Management System) built with Sinatra. Users are able to create an account, log in and out, and CRUD (Create, Read, Update, and Delete) their own recipes. There are quite a few validations in place as well. For instance, users cannot log in without a username and password, and while they can view other users' recipes, they can only create, edit, and delete their own. If they try to log in with invalid credentials and/or change someone else's recipe, they will be redirected to another page with an error message. There are also validations on the User and Recipe forms (required fields, the format of a username, etc).
 
