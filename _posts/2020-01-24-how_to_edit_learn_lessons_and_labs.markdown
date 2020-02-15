@@ -11,7 +11,7 @@ permalink:  how_to_edit_learn_lessons_and_labs
 
 Let's use the **Basic Nested Forms** lab as our example. Suppose we wanted to add a Summary at the top:
 
-<img src="https://doc-00-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/tpfil3mpae3firalt1nei4fsrvt10so1/1581396300000/18375684649449857957/18375684649449857957/1X5XbRKigohSp2fhcWIMJ3QD3gJuyGXiU?e=view&authuser=0" alt="Lab with Summary Suggestion at Top" />
+<img src="../img/edit-learn-lessons/Lessons-Pic1.png" alt="Lab with Summary Suggestion at Top" />
 
 The first thing we need to do is get to the lab's GitHub repository. You might be thinking, "OK. I'll just click on the **Open in Github** icon at the top of the lab." However, as I've been told, that usually takes you to the *wrong repository*. What you need to do is find the lesson at
 
