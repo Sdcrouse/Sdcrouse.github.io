@@ -11,7 +11,7 @@ permalink:  how_to_edit_learn_lessons_and_labs
 
 Let's use the **Basic Nested Forms** lab as our example. Suppose we wanted to add a Summary at the top:
 
-<img src="https://doc-00-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/tpfil3mpae3firalt1nei4fsrvt10so1/1581396300000/18375684649449857957/18375684649449857957/1X5XbRKigohSp2fhcWIMJ3QD3gJuyGXiU?e=view&authuser=0" alt="Lab with Summary Suggestion at Top" />
+<img src="../img/edit-learn-lessons/Lessons-Pic1.png" alt="Lab with Summary Suggestion at Top" />
 
 The first thing we need to do is get to the lab's GitHub repository. You might be thinking, "OK. I'll just click on the **Open in Github** icon at the top of the lab." However, as I've been told, that usually takes you to the *wrong repository*. What you need to do is find the lesson at
 
@@ -21,11 +21,11 @@ https://github.com/learn-co-curriculum/[your-lesson-name]
 
 I've found that the easiest way to do this is to click on the **Raise an Issue** icon at the top of the lesson:
 
-<img src="https://doc-0c-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/b3r5n8p95udj7qbh087a8k5d7ge1ptda/1581396300000/18375684649449857957/18375684649449857957/1gRkku9VTNIV4jzDa0gcU-qGnlPA38NsU?e=view&authuser=0" alt="Raise an Issue icon" />
+<img src="../img/edit-learn-lessons/Lessons-Pic2.png" alt="Raise an Issue icon" />
 
 This will take you to the correct repository:
 
-<img src="https://doc-0c-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/h168c1vvgjjv3jf2i814c5k5l5m9t6ju/1581396300000/18375684649449857957/18375684649449857957/1YF3b4D3EVYPigOrwUX5SbCztpIwcs4fl?e=view&authuser=0" alt="Learn Lab Repository" />
+<img src="../img/edit-learn-lessons/Lessons-Pic3.png" alt="Learn Lab Repository" />
 
 > **Side Note:** This only applies to labs and codealongs, which have a blue **Open IDE** icon at the top. For regular lessons, which have a blue **Sandbox** icon, you can click on the **Open in Github** icon or the **Raise an Issue** icon; either one will take you to the correct repository.
 
@@ -35,31 +35,31 @@ This will take you to the correct repository:
 
 Click the **Fork** button in the top right corner:
 
-<img src="https://doc-04-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/345l8jn4rbfl9733sv3t6ham3q8iv9c6/1581396300000/18375684649449857957/18375684649449857957/1DpSIiYy4ct985H9_7zldzAwlg3ZFo--j?e=view&authuser=0" alt="Fork Button"  />
+<img src="../img/edit-learn-lessons/Lessons-Pic4.png" alt="Fork Button"  />
 
 You should then see a pop-up window:
 
-<img src="https://doc-08-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/48hn8ctj03kuedbiemt1o0t1bko74u05/1581396300000/18375684649449857957/18375684649449857957/1bVkF2C6eLPq2dGVGo7XX1UKXw3r4RJ1a?e=view&authuser=0" alt="Pop-Up Window for Fork Button" width="400" height="304" />
+<img src="../img/edit-learn-lessons/Lessons-Pic5.png" alt="Pop-Up Window for Fork Button" width="400" height="304" />
 
-Just click on your profile icon and name, and wait a few seconds to be redirected to your newly forked repository. (If you've forked this repository before, the pop-up window will look a little different from the one above; just click on the link that it shows you, and you'll be redirected to your fork). You should see something like this: 
+Just click on your profile icon and name, and wait a few seconds to be redirected to your newly forked repository. (If you've forked this repository before, the pop-up window will look a little different from the one above; just click on the link that it shows you, and you'll be redirected to your fork.) You should see something like this: 
 
-<img src="https://doc-0g-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/eisfggjef0lrbvq2rb4lqg40mfm7lo97/1581396300000/18375684649449857957/18375684649449857957/1TZUqzZLBqqdPQTuedhRXgvnqVhx3gApG?e=view&authuser=0" alt="Fork of Lab Repository" />
+<img src="../img/edit-learn-lessons/Lessons-Pic6.png" alt="Fork of Lab Repository" />
 
 ## Clone the lesson into your IDE or local environment
 
 Click the **Clone or download** button in the top-right corner, then click the clipboard icon in the pop-up window (I use SSH, but you can use HTTPS if you'd prefer):
 
-<img src="https://doc-10-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/s9mkoftge4fpge1n2ra2tjljchj507fd/1581396300000/18375684649449857957/18375684649449857957/1ws_TJViUo9AZa_GAjmeYVL5HF4yPND0E?e=view&authuser=0" alt="Clone or Download Button and Pop-Up" />
+<img src="../img/edit-learn-lessons/Lessons-Pic7.png" alt="Clone or Download Button and Pop-Up" />
 
 Now, go to your IDE or local environment, and write `git clone [paste-your-repo-name-here]`. The repo-name is what you copied from Github when you hit the clipboard icon. Now, `cd` into that new directory. I'm using VSCode in this case, but your command terminal should look something like this:
 
-<img src="https://doc-08-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/140at1e8gugo5df243vegi1aas3v2a1h/1581396300000/18375684649449857957/18375684649449857957/1FBe7wOmD38-a24OodyNQIJT9sWSMWDFI?e=view&authuser=0" alt="Command terminal with 'git clone' and 'cd' commands" width="568" height="240" />
+<img src="../img/edit-learn-lessons/Lessons-Pic8.png" alt="Command terminal with 'git clone' and 'cd' commands" width="568" height="240" />
 
 ## Make your changes to the lesson or lab
 
 Let's add a Summary to this lab's README.md file:
 
-<img src="https://doc-0k-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/fe2b1g40lqefqnqfqfmb8k7140ul5gvs/1581396300000/18375684649449857957/18375684649449857957/1XZrQhlqKVKknNSnlNrDTLZfpjFGkV0Sb?e=view&authuser=0" alt="Summary added to lab Readme" />
+<img src="../img/edit-learn-lessons/Lessons-Pic9.png" alt="Summary added to lab Readme" />
 
 > **Side note:** If you make any changes to a lab's test suite, be sure to try them out on your original lab first. Make sure the tests still work!
 
@@ -69,25 +69,25 @@ That all looks good, so we can move onto the next step.
 
 Let's stage our changes with `git add .` and commit them with `git commit -m "Your commit message here"`:
 
-<img src="https://doc-0c-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/919jsptbi1df9lad4en6mj2j33pdoa28/1581397200000/18375684649449857957/18375684649449857957/1ROesM-KfIhXEf8rbk8-qxHUH3OWfq_eq?e=view&authuser=0" alt="Adding and committing changes" />
+<img src="../img/edit-learn-lessons/Lessons-Pic10.png" alt="Adding and committing changes" />
 
-If you want to add a description to your commit that explains your changes in more detail, just write `git commit`. That will open up a text editor. You'll be able to write and save something like this (I'm using "GNU nano", but you can use whatever text editor you want):
+If you want to add a description to your commit that explains your changes in more detail, just write `git commit` without the `-m` tag and commit message. That will open up a text editor. You'll be able to write and save something like this (I'm using "GNU nano", but you can use whatever text editor you want):
 
-<img src="https://doc-08-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/uf72v5d2qc8em6diioinngdjas3pl7sm/1581397200000/18375684649449857957/18375684649449857957/1q0hRUbzSS0WnoHuLnuBsHZPc3OZ94XYW?e=view&authuser=0" alt="Git commit message and description on GNU nano" width="600" height="250" />
+<img src="../img/edit-learn-lessons/Lessons-Pic11.png" alt="Git commit message and description on GNU nano" width="600" height="250" />
 
 Finally, push your changes back to your repository with `git push`: 
 
-<img src="https://doc-0o-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/dmq55ht1e8h4uu54bjturg2n4d85fra9/1581397200000/18375684649449857957/18375684649449857957/1Ygi4moKXQMJSk1Dya_xG1akSl_hG5Dns?e=view&authuser=0" alt="Using Git Push" width="600" height="256" />
+<img src="../img/edit-learn-lessons/Lessons-Pic12.png" alt="Using Git Push" width="600" height="256" />
 
 ## Review your changes on GitHub
 
 Go back to your GitHub repository and refresh it. If you pushed your changes successfully, your repository will show your last commit, and it will be at least one commit ahead of the original lab's repository:
 
-<img src="https://doc-00-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/uen7scmo3fnca7t5sdubq9876ui7muvh/1581397200000/18375684649449857957/18375684649449857957/1ousuePxUlfWTNw6m6nbfrXMJsJ_is1gs?e=view&authuser=0" alt="GitHub repository with latest commit" width="706" height="375" />
+<img src="../img/edit-learn-lessons/Lessons-Pic13.png" alt="GitHub repository with latest commit" width="706" height="375" />
 
 Since we changed the README.md file, we can see our changes by scrolling down:
 
-<img src="https://doc-0o-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/f4ff95ajc7ujtke1hrj0670j03t991oe/1581397200000/18375684649449857957/18375684649449857957/1vRuwSkcvRra7hs59Vom_SuwRJmbTIlNH?e=view&authuser=0" alt="Changes to Readme.md file" width="681" height="250" />
+<img src="../img/edit-learn-lessons/Lessons-Pic14.png" alt="Changes to Readme.md file" width="681" height="250" />
 
 That looks good, so let's move onto the next step. If you want to change something else, just add, commit, and push your new changes before coming back here.
 
@@ -95,25 +95,25 @@ That looks good, so let's move onto the next step. If you want to change somethi
 
 We are finally ready to make a pull request! To do this, click on the **New pull request** button:
 
-<img src="https://doc-0g-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/edlohmlkginadj1ku8jlkcb7g5ervjqu/1581397200000/18375684649449857957/18375684649449857957/1gy0QkaB3CEAorgBeFJUXIq_8m57VoWqr?e=view&authuser=0" alt="New pull request button" width="600" height="387" />
+<img src="../img/edit-learn-lessons/Lessons-Pic15.png" alt="New pull request button" width="600" height="387" />
 
 If your commits can be merged into the lab's repository, you'll be taken to the **Comparing changes** page with a green **Create pull request** button. It will look something like this:
 
-<img src="https://doc-0c-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/bjtne6b2n9k4viu2givih4i0hbi7tast/1581397200000/18375684649449857957/18375684649449857957/1Y4C7c_cFo0Jqr6SeKU67pvqpKZ7EMj4w?e=view&authuser=0" alt="Screen with 'Create Pull Request' button" />
+<img src="../img/edit-learn-lessons/Lessons-Pic16.png" alt="Screen with 'Create Pull Request' button" />
 
 When you click on that button, you'll be taken to the **Open a pull request** page. Here, you can review your commit and edit your commit message and description. Click the **Create pull request** button, and you're done!
 
-<img src="https://doc-04-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/l035n5sd6g85iaes8a4o4rr7gtdrf6fr/1581397200000/18375684649449857957/18375684649449857957/131Ib6lAlppfoOBjpN1uYDh7lSLLseYsT?e=view&authuser=0" alt="Open a pull request" />
+<img src="../img/edit-learn-lessons/Lessons-Pic17.png" alt="Open a pull request" />
 
 > **Side note:** Since this is just an example, I won't actually submit the pull request. The last thing I want to do is create a major headache for the Learn team!
 
 If you're being *really* awesome by solving a raised issue with this pull request, go ahead and edit your commit description in the **Write** tab. Write something like "Fixes issue..." and paste in the URL of the raised issue. After you hit **Create pull request**, this will create a link to the raised issue on the pull request's page. (**Note:** I'm using a different example here, with an already-merged pull request for a closed issue.)
 
-<img src="https://doc-10-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/dvm3eq1mmgpfig324bmenu5lk42si2bd/1581397200000/18375684649449857957/18375684649449857957/13i0XWaXaQ7JgqrhA1NN3Xiweu_cbUbKk?e=view&authuser=0" alt="Merged pull request referencing closed issue" />
+<img src="../img/edit-learn-lessons/Lessons-Pic18.png" alt="Merged pull request referencing closed issue" />
 
 It will also create a link to the pull request on the raised issue's page:
 
-<img src="https://doc-08-cc-docs.googleusercontent.com/docs/securesc/ko5vot4vvg9f2tjfpgn08k3am7vsnadp/pjkbpggnk4pftqpl6k2ihv4dnkd7rra3/1581397200000/18375684649449857957/18375684649449857957/1YG6tjEdJACqPoT2eQ1SnsCVOq7yJuPDb?e=view&authuser=0" alt="Closed issue referenced by merged pull request" />
+<img src="../img/edit-learn-lessons/Lessons-Pic19.png" alt="Closed issue referenced by merged pull request" />
 
 Cool! There's just *one* more thing that we may need to do.
 
