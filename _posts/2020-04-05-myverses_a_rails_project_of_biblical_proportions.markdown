@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "MyVerses: A Rails Project of Biblical Proportions"
-date:       2020-04-05 06:35:09 +0000
+date:       2020-04-05 02:35:10 -0400
 permalink:  myverses_a_rails_project_of_biblical_proportions
 ---
 
@@ -13,6 +13,7 @@ Here's how the MyVerses app works. After going to the home page, you can click o
 Before I go into creating a MyVerse, I'd better explain my app's model structure. As you might have guessed, I set up the MyVerses app such that a User has many MyVerses, and a MyVerse belongs to a User. However, I realized that a lot of people might choose the same Bible verse as one of their MyVerses - John 3:16, for example. Additionally, there are many versions of the Bible - New International Version, King James Version, ESV, etc. - and not everyone would have the same reasons for choosing that verse as a MyVerse. So, if my app only had a MyVerse and User model, there would wind up being a LOT of similar-looking MyVerses clogging up the database! 
 
 With that in mind, I decided to separate the VerseReference (book, chapter, start of verse, and end of verse) from the MyVerse (version, verse text, and why the User chose that verse as one of their MyVerses). Effectively, the MyVerse model became a join model betweeen Users and VerseReferences. In other words, my models and associations now look like this:
+
 * A User has many MyVerses and many VerseReferences through MyVerses.
 * A MyVerse belongs to a User and a VerseReference.
 * A VerseReference has many MyVerses and many Users through MyVerses.
