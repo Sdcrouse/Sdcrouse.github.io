@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Importance of Scope, Hoisting, and the JavaScript Engine, Part 1"
-date:       2020-07-10 02:36:12 +0000
+date:       2020-07-09 22:36:13 -0400
 permalink:  the_importance_of_scope_hoisting_and_the_javascript_engine_part_1
 ---
 
@@ -129,7 +129,7 @@ outer();
 //=> See? Because of the scope chain, I have access to all three constants!
 ```
 ## A Quick Note About Closures
-There is still another scope-related concept called a *closure*. In summary, it is an inner function that gets returned by an outer function. Even though we have exited out of the outer function, the returned inner function still has access to the outer function's variables and scope. I would go into further detail about this, but that is beyond the scope (pun intended) of this blog post. For those who are curious, more information can be found here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+There is still another scope-related concept called a *closure*. In summary, it is an inner function that gets returned by an outer function. Even though we have exited out of the outer function, the returned inner function still has access to the outer function's variables and scope. I would go into further detail about this, but that is beyond the scope (pun intended) of this blog post. For those who are curious, more information can be found here: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 
 ## Conclusion
 
