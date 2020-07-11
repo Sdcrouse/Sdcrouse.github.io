@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Importance of Scope, Hoisting, and the JavaScript Engine, Part 2"
-date:       2020-07-10 03:04:00 +0000
+date:       2020-07-09 23:04:02 -0400
 permalink:  the_importance_of_scope_hoisting_and_the_javascript_engine_part_2
 ---
 
@@ -143,6 +143,8 @@ console.log(myTestB);
 const myTestB = 'abc';
 //=> Uncaught ReferenceError: Cannot access 'myTestB' before initialization
 ```
+
+> **Special note about OOJS:** According to [the official documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Hoisting), function declarations are hoisted, but class declarations are *not*. When programming with Object-Oriented JavaScript, be sure to declare your classes before calling them.
 
 ## Conclusion
 As we have seen in this blog post and the one before it, it is important to understand how scope, hoisting, and the JavaScript engine all work. This can help us avoid a lot of potential errors - or at the very least correct the ones that exist - especially when dealing with legacy code. Just to summarize:
