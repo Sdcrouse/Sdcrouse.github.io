@@ -107,10 +107,10 @@ I'm glad I was able to make a Beach Journal for my final project at Flatiron. Th
 Take care, and God Bless!
 
 ## Resources
-1. Beach Journal frontend: https://github.com/Sdcrouse/beach-journal-client
-2. Beach Journal backend: https://github.com/Sdcrouse/beach-journal-backend
-3. Beach Journal Demo video: https://www.loom.com/share/dfdc7f0bdced4f13bc0c6f935c38e892
-4. Normalizing state in Redux: https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape
-5. Normalizr Node package: https://github.com/paularmstrong/normalizr
-6. Fast JSON API gem: https://github.com/Netflix/fast_jsonapi
-7. JSON Viewer Chrome extension: https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US
+1. Beach Journal frontend: [https://github.com/Sdcrouse/beach-journal-client](https://github.com/Sdcrouse/beach-journal-client)
+2. Beach Journal backend: [https://github.com/Sdcrouse/beach-journal-backend](https://github.com/Sdcrouse/beach-journal-backend)
+3. Beach Journal Demo video: [https://www.loom.com/share/dfdc7f0bdced4f13bc0c6f935c38e892](https://www.loom.com/share/dfdc7f0bdced4f13bc0c6f935c38e892)
+4. Normalizing state in Redux: [https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape](https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape)
+5. Normalizr Node package: [https://github.com/paularmstrong/normalizr](https://github.com/paularmstrong/normalizr)
+6. Fast JSON API gem: [https://github.com/Netflix/fast_jsonapi](https://github.com/Netflix/fast_jsonapi)
+7. JSON Viewer Chrome extension: [https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=en-US)
