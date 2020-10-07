@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Beach Journal: My Final (and Most Complicated) Project"
-date:       2020-10-07 07:43:53 +0000
+date:       2020-10-07 03:43:54 -0400
 permalink:  beach_journal_my_final_and_most_complicated_project
 ---
 
