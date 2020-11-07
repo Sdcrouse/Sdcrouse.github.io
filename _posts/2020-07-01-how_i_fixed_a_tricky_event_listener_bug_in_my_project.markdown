@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "How I Fixed a Tricky Event Listener Bug in my Project"
-date:       2020-07-02 01:44:17 +0000
+date:       2020-07-01 21:44:17 -0400
 permalink:  how_i_fixed_a_tricky_event_listener_bug_in_my_project
 ---
 
@@ -94,7 +94,7 @@ This works, but it's kind of annoying having to add the same event listener to m
 
 ## Refactoring with event delegation
 
-I won't go into too much detail here, but the idea is that instead of adding event listeners to individual elements, you can add *one* event listener to a *parent* element. Then, when a child element is clicked, the event bubbles up to the parent element that has the event listener. This technique is often used on lists: Instead of adding/deleting event listeners on individual `<li>` items that get created and/or deleted, you can simply add a single event listener to the parent `<ul>` or `<ol>` element. That makes your code cleaner and much more flexible! More information about event delegation is available in the Resources.
+I won't go into too much detail here about event delegation, but the idea is that instead of adding event listeners to individual elements, you can add *one* event listener to a *parent* element. Then, when a child element is clicked, the event bubbles up to the parent element that has the event listener. This technique is often used on lists: Instead of adding/deleting event listeners on individual `<li>` items that get created and/or deleted, you can simply add a single event listener to the parent `<ul>` or `<ol>` element. That makes your code cleaner and much more flexible! More information about event delegation is available in the Resources.
 
 Here's how I refactored my code with event delegation:
 ```
