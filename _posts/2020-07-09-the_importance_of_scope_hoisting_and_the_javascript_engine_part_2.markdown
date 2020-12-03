@@ -7,7 +7,6 @@ permalink:  the_importance_of_scope_hoisting_and_the_javascript_engine_part_2
 
 
 In my previous blog post, I discussed how scope works in JavaScript. I explored a couple of key scope-related concepts, and I briefly touched upon closures. Here, I will conclude my discussion of scope by describing a couple of "exceptions" to the concepts that I previously wrote about. Then, I will describe hoisting and how it is closely connected with the JavaScript engine's compilation and execution phases. An understanding of how scope, hoisting, and the JavaScript engine work, is critical to becoming a good JavaScript developer; a lot of bugs can be avoided or corrected, especially when dealing with legacy code.
-
 ## "Exceptions" to the Rules
 Unfortunately (or fortunately, depending on your point of view), there are a couple of "exceptions" to the scope-related concepts that I described in the previous post, and they are often encountered in legacy (pre-ES6/ECMA2015) code. 
 
