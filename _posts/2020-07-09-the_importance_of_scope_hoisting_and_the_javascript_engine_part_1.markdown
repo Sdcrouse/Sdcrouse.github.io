@@ -10,6 +10,7 @@ Scope and hoisting are essential concepts to understand when programming in Java
 
 In this first part of the blog post, I will describe a few key scope-related concepts. In Part 2, I will point out a couple of "exceptions" to these concepts, and I will describe how hoisting and the JavaScript engine work.
 
+
 ## Scope
 Let's say we have the following lines of code: 
 ```
