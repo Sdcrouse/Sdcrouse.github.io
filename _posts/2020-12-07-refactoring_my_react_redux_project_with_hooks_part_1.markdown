@@ -17,12 +17,9 @@ Hooks solved three main problems that had been prevalent in React for years:
 
 All of these problems had one root cause: If you wanted to share stateful logic between components, you couldn't create anything simpler in React than a class component. Enter hooks. According to [the official documentation](https://reactjs.org/docs/hooks-intro.html#motivation), this is how hooks solve the above three problems:
 
-1. "Hooks let you split one component into smaller functions based on what pieces are related (such as setting up a subscription or fetching data), rather than forcing a split based on lifecycle methods." 
-    * Layman's terms: You can keep related code together without worrying about the React component lifecycle.
-2. "Hooks allow you to reuse stateful logic without changing your component hierarchy."
-    * Layman's terms: There's no longer any need to nest multiple components inside of wrapper components just to share logic, and thus no "wrapper hell".
-3. "Hooks let you use more of React’s features without classes."
-    * Layman's terms: Pretty much self-explanatory. Instead of confusing class components, you can now use functional components with state!
+1. "Hooks let you split one component into smaller functions based on what pieces are related (such as setting up a subscription or fetching data), rather than forcing a split based on lifecycle methods." (**Layman's terms:** You can keep related code together without worrying about the React component lifecycle.)
+2. "Hooks allow you to reuse stateful logic without changing your component hierarchy." (**Layman's terms:** There's no longer any need to nest multiple components inside of wrapper components just to share logic, and thus no "wrapper hell".)
+3. "Hooks let you use more of React’s features without classes." (**Layman's terms:** Pretty much self-explanatory. Instead of confusing class components, you can now use functional components with state!)
 
 Other benefits of using hooks include making your code easier to read and improving runtime performance.
 
