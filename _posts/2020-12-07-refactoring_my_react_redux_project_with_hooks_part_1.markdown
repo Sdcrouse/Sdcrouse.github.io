@@ -32,7 +32,6 @@ I'll now delve into some of these hooks and show how I refactored my React compo
 The useState hook makes it much easier to use local state without a lot of the extra structure required by a class component.
 
 To use [the example from the React resources](https://reactjs.org/docs/hooks-state.html), let's say you wanted to make a component that increases a counter by one every time you click a button. If you use a class component, you might do something like this:
-
 ```
 import React from 'react';
 
@@ -58,7 +57,6 @@ class Example extends React.Component {
 ```
 
 With the useState hook, however, you can change the component into a simpler functional component like this:
-
 ```
 import React, { useState } from 'react';
 
@@ -95,8 +93,9 @@ I'll demonstrate how I refactored some of my components with `useState` shortly.
 ...OK, now that you've read through all that, I'm glad you're back! So, let's look over the `useDispatch` hook. First of all, in order to update the state in your Redux store, you use React Redux to dispatch an action to a reducer. In order to get this to work, you have to write a `mapDispatchToProps` function with all of your dispatch actions, and you have to use React Redux's `connect` method to properly connect those dispatch actions to your component.
 
 Thankfully, React Redux has a hook to simplify all that: `useDispatch`! Instead of doing all that setup that I mentioned above, all you need to do is use this one line of code within your functional component:
-
-```const dispatch = useDispatch()```
+```
+const dispatch = useDispatch()
+```
 
 That's literally it! You don't need `connect` or `mapDispatchToProps` at all. If you want to see an example of how this is used, [check out the official documentation](https://react-redux.js.org/api/hooks#usedispatch). However, I will also show how I applied `useDispatch` to my code.
 
@@ -106,7 +105,6 @@ Before I continue, I should note that it is now possible to initialize state in 
 With that out of the way, I'll now demonstrate how I used `useDispatch` in my Beach Journal's JournalEntry component. Admittedly, I think I used `useDispatch` from the get go, since the JournalEntry component was always a functional component; I may not have realized at the time that it was a hook.
 
 The JournalEntry component renders a journal entry's title, topics, date, and text. It also has a button for deleting that journal entry. Had I not used the `useDispatch` hook from the start, this is probably what the JournalEntry component would have looked like:
-
 ```
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
@@ -192,7 +190,6 @@ Way simpler, don't you think? But now things are about to get REALLY fun. Let's 
 As I mentioned in [a previous blog post](https://stevendcrouse.com/beach_journal_my_final_and_most_complicated_project), when you use the Beach Journal app, you can navigate to a beach's page and create journal entries for it. In order for this to work, I made a JournalEntryForm component. When the journal entry was successfully created, the Beach Journal app would redirect to that same beach's page.
 
 Here is what the JournalEntryForm component looked like when it was a stateful class component:
-
 ```
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
@@ -318,7 +315,6 @@ export default connect(null, mapDispatchToProps)(JournalEntryForm);
 ```
 
 And here is what the JournalEntry form component looked like after I refactored it with `useState` and `useDispatch`:
-
 ```
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
