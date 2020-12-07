@@ -432,7 +432,7 @@ In retrospect, I would actually advise *against* refactoring your existing class
 2. You *really* need to optimize your app for speed and performance, or
 3. Your component is small enough that it can be refactored easily.
 
-The reason I'm saying this is because quite a few of my components (including the JournalEntryForm) needed to be refactored with two or three hooks. However, I often couldn't refactor with one hook at a time without breaking my app. As a result, I made a lot of changes in a few commits, which can easily create bugs unless you're *super* careful. This will be especially evident in Part 2, when I discuss how I refactored my App and BeachesContainer components. In fact, [the React documenation *itself* advises against doing this](https://reactjs.org/docs/hooks-intro.html#gradual-adoption-strategy)! 
+The reason I'm saying this is because quite a few of my components (including the JournalEntryForm) needed to be refactored with two or three hooks. However, I often couldn't refactor with one hook at a time without breaking my app. As a result, I made a lot of changes in a few commits, which can easily create bugs unless you're *super* careful. This will be especially evident in Part 2, when I discuss how I refactored my App and BeachesContainer components. In fact, [the React documentation itself advises against doing this](https://reactjs.org/docs/hooks-intro.html#gradual-adoption-strategy)! 
 
 In the future, I'll create new components with hooks from the get go, rather than try to convert class components into functional components with hooks. "If it ain't broke, don't fix it", as they say.
 
@@ -448,10 +448,10 @@ In Part 2, I will go over how I refactored a few of my other components with Rea
 2. [Video introduction to React hooks](https://reactjs.org/docs/hooks-intro.html#video-introduction)
 3. [React Redux hooks](https://react-redux.js.org/api/hooks)
 4. [Why React hooks were invented](https://reactjs.org/docs/hooks-intro.html#motivation)
-5. [Using the `useState` hook](https://reactjs.org/docs/hooks-state.html)
+5. [Using the useState hook](https://reactjs.org/docs/hooks-state.html)
 6. [Rules of Hooks](https://reactjs.org/docs/hooks-rules.html)
 7. [Introduction to Redux](https://redux.js.org/tutorials/essentials/part-1-overview-concepts#introduction)
 8. [Introduction to React Redux](https://react-redux.js.org/introduction/quick-start)
-9. [Using the `useDispatch` hook](https://react-redux.js.org/api/hooks#usedispatch)
+9. [Using the useDispatch hook](https://react-redux.js.org/api/hooks#usedispatch)
 10. [Beach Journal blog post](https://stevendcrouse.com/beach_journal_my_final_and_most_complicated_project)
 11. [Why it's better to adopt hooks gradually instead of refactoring with them](https://reactjs.org/docs/hooks-intro.html#gradual-adoption-strategy)
