@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Refactoring my React/Redux Project with Hooks, Part 1"
-date:       2020-12-07 06:14:25 +0000
+date:       2020-12-07 01:14:26 -0500
 permalink:  refactoring_my_react_redux_project_with_hooks_part_1
 ---
 
@@ -82,7 +82,6 @@ Now, instead of using a constructor to initialize local state, you can simply se
 The new hook syntax will take a little getting used to, but it simplifies the structure of your components and makes them more readable!
 
 ## A note about using React hooks
-
 Before we move on, there are a couple of "rules" of React hooks that you should be aware of. According to [the official documentation](https://reactjs.org/docs/hooks-rules.html), there are only two places where you can call hooks:
 
 1. At the top level, i.e. not inside of loops, conditional statements, or nested functions. This allows React to correctly call your hooks "in the same order each time a component renders", as well as preserve state between multiple calls to `useState` and other hooks.
@@ -190,7 +189,6 @@ export default JournalEntry;
 Way simpler, don't you think? But now things are about to get REALLY fun. Let's see what happens when we use `useState` and `useDispatch` together in the same component!
 
 ## Using the `useState` and `useDispatch` hooks together
-
 As I mentioned in [a previous blog post](https://stevendcrouse.com/beach_journal_my_final_and_most_complicated_project), when you use the Beach Journal app, you can navigate to a beach's page and create journal entries for it. In order for this to work, I made a JournalEntryForm component. When the journal entry was successfully created, the Beach Journal app would redirect to that same beach's page.
 
 Here is what the JournalEntryForm component looked like when it was a stateful class component:
@@ -435,7 +433,6 @@ Admittedly, it's hard to see the benefit here, since both versions have over 100
 Similarly, I also refactored my NewBeachPage component with `useDispatch` and `useState`. For the sake of brevity, I won't show those changes here.
 
 ## A word of caution
-
 In retrospect, I would actually advise *against* refactoring your existing class components with hooks, unless:
 
 1. You only need to refactor with *one* hook,
@@ -447,7 +444,6 @@ The reason I'm saying this is because quite a few of my components (including th
 In the future, I'll create new components with hooks from the get go, rather than try to convert class components into functional components with hooks. "If it ain't broke, don't fix it", as they say.
 
 ## Conclusion
-
 Despite the fact that it isn't recommended, I refactored my Beach Journal's class components into functional components with hooks. In the process, I learned a lot about how hooks work (and *don't* work). While I wouldn't suggest doing this with super-complicated components, it can be a good exercise to refactor a small component with hooks to get a feel for them.
 
 The `useState` hook made it much easier to work with local state in a component, and `useDispatch` prevented the need to use `connect` and `mapDispatchToProps`. In both cases, I was able to shrink my components and make them easier to read. And if I'm not mistaken, all of these changes together made the Beach Journal run a little bit faster.
@@ -455,7 +451,6 @@ The `useState` hook made it much easier to work with local state in a component,
 In Part 2, I will go over how I refactored a few of my other components with React's `useEffect` hook, React Router DOM's `useLocation` hook, React Redux's `useSelector` hook, the Reselect library, and memoization. Stay tuned, readers!
 
 ## Resources
-
 1. [GitHub repository for the Beach Journal app](https://github.com/Sdcrouse/beach-journal-client)
 2. [Video introduction to React hooks](https://reactjs.org/docs/hooks-intro.html#video-introduction)
 3. [React Redux hooks](https://react-redux.js.org/api/hooks)
