@@ -68,7 +68,7 @@ I won't go into the `useLayoutEffect` hook here, as I did not use it to refactor
 
 Conceptually, side effects can be separated into two categories: ones that don't require cleanup, and ones that do. Let's check out [this example of an effect that doesn't require cleanup](https://reactjs.org/docs/hooks-effect.html#example-using-classes). With class components, if you wanted to update your document's title every time you clicked a button, you might write something like this (again, all credit goes to the React developers for this example):
 
-```react
+```
 class Example extends React.Component {
   constructor(props) {
     super(props);
@@ -101,7 +101,7 @@ When the document first loads, the title in your browser tab will say, "You clic
 
 Note that the code in the `componentDidMount` and `componentDidUpdate` lifecycle methods, is the same. Since we just want the same effect to happen after every render, ideally it should only be written in *one* method and called in *one* place. This is impossible with class components. However, it *is* possible with a functional component and the `useEffect` hook! Check this out (again, [from the React hooks documentation](https://reactjs.org/docs/hooks-effect.html#example-using-hooks)):
 
-```react
+```
 import React, { useState, useEffect } from 'react';
 
 function Example() {
