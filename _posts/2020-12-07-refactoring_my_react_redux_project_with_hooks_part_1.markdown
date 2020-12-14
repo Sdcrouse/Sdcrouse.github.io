@@ -192,7 +192,7 @@ Way simpler, don't you think? But now things are about to get REALLY fun. Let's 
 ## Using the `useState` and `useDispatch` hooks together
 As I mentioned in [a previous blog post](https://stevendcrouse.com/beach_journal_my_final_and_most_complicated_project), when you use the Beach Journal app, you can navigate to a beach's page and create journal entries for it. In order for this to work, I made a JournalEntryForm component. When the journal entry was successfully created, the Beach Journal app would redirect to that same beach's page.
 
-> **Note:** I can't include my code for redirecting to the beach's page here, because some of it causes a conflict with Markdown's syntax. Evidently, Markdown doesn't work well when you try to display JavaScript code with backticks for string interpolation.
+
 
 With that in mind, here is what the JournalEntryForm component looked like when it was a stateful class component:
 ```
@@ -215,7 +215,8 @@ class JournalEntryForm extends Component {
       topics: '',
       entry_text: ''
     },
-    errorMessage: ''
+    errorMessage: '',
+		redirect: false
   };
 
   handleChange = event => {
@@ -238,6 +239,22 @@ class JournalEntryForm extends Component {
       });
     } else {
       this.props.createJournalEntry(this.state);
+			this.setState({
+        redirect: true
+      })
+    }
+  }
+	
+	redirectToBeach = beach_id => {
+    if (this.state.redirect) {
+      return (
+        <Redirect 
+          to={{
+            pathname: `/beaches/${beach_id}`,
+            state: {successMessage: "Journal entry successfully created!"}
+          }}
+        />
+      )
     }
   }
   
@@ -246,6 +263,7 @@ class JournalEntryForm extends Component {
 
     return (
       <Container className="journal-entry-form">
+			  {this.redirectToBeach(beach_id)}
 
         <h3>New Journal Entry</h3>
         <p><strong>* </strong><span className="required-field">Required field</span></p>
@@ -324,6 +342,7 @@ const JournalEntryForm = props => {
   const { date, title, topics, entry_text } = journalEntry;
   
   const [errorMessage, setErrorMessage] = useState('');
+	const [redirect, setRedirect] = useState(false);
   
   const handleChange = event => {
     setJournalEntry({
@@ -341,9 +360,23 @@ const JournalEntryForm = props => {
       dispatch(createJournalEntry({ journalEntry }));
     }
   }
+	
+	const redirectToBeach = beach_id => {
+    if (redirect) {
+      return (
+        <Redirect 
+          to={{
+            pathname: `/beaches/${beach_id}`,
+            state: {successMessage: "Journal entry successfully created!"}
+          }}
+        />
+      )
+    }
+  }
 
   return (
     <Container className="journal-entry-form">
+		  {redirectToBeach(beach_id)}
 
       <h3>New Journal Entry</h3>
       <p><strong>* </strong><span className="required-field">Required field</span></p>
