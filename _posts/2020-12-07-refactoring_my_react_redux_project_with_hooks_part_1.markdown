@@ -6,7 +6,7 @@ permalink:  refactoring_my_react_redux_project_with_hooks_part_1
 ---
 
 
-**Introduction:** When I created my React/Redux project, a Beach Journal app, I used class components to store state. In order to share state between components, I passed it as props to child components. If I wanted to use the same logic in multiple components, I wrapped them in a parent container. Stateful class components worked just fine for the project requirements, but [in 2018 Dan Abramov and the React team came up with a new and better feature](https://reactjs.org/docs/hooks-intro.html#video-introduction): React hooks! Shortly afterwards, [Redux and other libraries followed suit](https://react-redux.js.org/api/hooks). In these next couple of blog posts, I'll summarize what hooks are and demonstrate how I used them to refactor my Beach Journal app.
+**Introduction:** When I created my React/Redux project, a Beach Journal app, I used class components to store state. In order to share state between components, I passed it as props to child components. If I wanted to use the same logic in multiple components, I wrapped them in a parent container. Stateful class components worked just fine for the project requirements, but [in 2018 Dan Abramov and the React team came up with a new and better feature](https://reactjs.org/docs/hooks-intro.html#video-introduction): React hooks! Shortly afterwards, [Redux and other libraries followed suit](https://react-redux.js.org/api/hooks). In these next few blog posts, I'll summarize what hooks are and demonstrate how I used them to refactor my Beach Journal app.
 
 ## What are hooks, and why would we use them?
 Hooks solved three main problems that had been prevalent in React for years:
@@ -401,7 +401,7 @@ In retrospect, I would actually advise *against* refactoring your existing class
 2. You *really* need to optimize your app for speed and performance, or
 3. Your component is small enough that it can be refactored easily.
 
-The reason I'm saying this is because quite a few of my components (including the JournalEntryForm) needed to be refactored with two or three hooks. However, I often couldn't refactor with one hook at a time without breaking my app. As a result, I made a lot of changes in a few commits, which can easily create bugs unless you're *super* careful. This will be especially evident in Part 2, when I discuss how I refactored my App and BeachesContainer components. In fact, [the React documentation *itself* advises against doing this](https://reactjs.org/docs/hooks-intro.html#gradual-adoption-strategy)! 
+The reason I'm saying this is because quite a few of my components (including the JournalEntryForm) needed to be refactored with two or three hooks. However, I often couldn't refactor with one hook at a time without breaking my app. As a result, I made a lot of changes in a few commits, which can easily create bugs unless you're *super* careful. This will be especially evident in Part 2, when I discuss how I refactored my App component. In fact, [the React documentation *itself* advises against doing this](https://reactjs.org/docs/hooks-intro.html#gradual-adoption-strategy)! 
 
 In the future, I'll create new components with hooks from the get go, rather than try to convert class components into functional components with hooks. "If it ain't broke, don't fix it", as they say.
 
@@ -410,7 +410,7 @@ Despite the fact that it isn't recommended, I refactored my Beach Journal's clas
 
 The `useState` hook made it much easier to work with local state in a component, and `useDispatch` prevented the need to use React Redux's `connect` and `mapDispatchToProps` methods. In both cases, I was able to shrink my components and make them easier to read. And if I'm not mistaken, all of these changes together made the Beach Journal run a little bit faster.
 
-In Part 2, I will go over how I refactored my App and BeachesContainer components with React's `useEffect` hook, React Router DOM's `useLocation` hook, React Redux's `useSelector` hook, the Reselect library, and memoization. Stay tuned, readers!
+In Part 2, I will go over how I refactored my App component with React's `useEffect` hook and React Redux's `useSelector` hook. Stay tuned, readers!
 
 ## Resources
 1. [GitHub repository for the Beach Journal app](https://github.com/Sdcrouse/beach-journal-client)
