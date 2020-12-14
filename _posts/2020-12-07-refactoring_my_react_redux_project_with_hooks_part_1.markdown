@@ -192,10 +192,8 @@ Way simpler, don't you think? But now things are about to get REALLY fun. Let's 
 ## Using the `useState` and `useDispatch` hooks together
 As I mentioned in [a previous blog post](https://stevendcrouse.com/beach_journal_my_final_and_most_complicated_project), when you use the Beach Journal app, you can navigate to a beach's page and create journal entries for it. In order for this to work, I made a JournalEntryForm component. When the journal entry was successfully created, the Beach Journal app would redirect to that same beach's page.
 
-
-
 With that in mind, here is what the JournalEntryForm component looked like when it was a stateful class component:
-```
+```javascript
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { createJournalEntry } from '../../actions/journalEntryActions';
@@ -318,7 +316,7 @@ export default connect(null, mapDispatchToProps)(JournalEntryForm);
 ```
 
 And here is what the JournalEntry form component looked like after I refactored it with `useState` and `useDispatch`:
-```
+```javascript
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { createJournalEntry } from '../../actions/journalEntryActions';
