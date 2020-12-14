@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Refactoring my React/Redux Project with Hooks, Part 2"
-date:       2020-12-14 07:21:56 +0000
+date:       2020-12-14 02:21:57 -0500
 permalink:  refactoring_my_react_redux_project_with_hooks_part_2
 ---
 
@@ -88,9 +88,9 @@ class Example extends React.Component {
     return (
       <div>
         <p>You clicked {this.state.count} times</p>
-        <button onClick={() => this.setState({ count: this.state.count + 1 })}>
-          Click me
-        </button>
+				<button onClick={() => this.setState({ count: this.state.count + 1 })}>
+				  Click me
+	      </button>
       </div>
     );
   }
