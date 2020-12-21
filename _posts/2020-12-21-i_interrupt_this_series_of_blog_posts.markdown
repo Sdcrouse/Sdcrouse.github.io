@@ -1,11 +1,13 @@
 ---
 layout: post
-title:      "I interrupt this series of blog posts..."
-date:       2020-12-21 05:19:49 +0000
+title:      "I Interrupt this Series of Blog Posts..."
+date:       2020-12-21 00:19:50 -0500
 permalink:  i_interrupt_this_series_of_blog_posts
 ---
 
 ...To wish you all Happy Holidays! With Christmas just around the corner, it can get overwhelming trying to balance everything holiday-related with programming on a regular basis. It can get easy to slack off, especially since a lot of companies are winding down this time of year. However - and as difficult as this is - it's important to keep on coding and learning when you can, so that everything stays fresh in your head. With that in mind, here are 10 ways that you can keep on programming while still enjoying the holidays!
+
+(For those of you who were expecting Part 3 of my React/Redux project blog post series, my apologies. After this, I will return to my regularly scheduled blogging.)
 
 ## 1. Make an app that creates holiday greeting cards.
 You could create a fullstack app called Greeting Card Generator, for example. Have it auto-generate messages on your cards for your friends and relatives. Then, convert it into a .pdf or .docx format and make it printable.
