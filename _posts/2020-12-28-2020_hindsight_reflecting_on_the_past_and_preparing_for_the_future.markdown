@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "2020 Hindsight: Reflecting on the Past and Preparing for the Future"
-date:       2020-12-28 07:44:05 +0000
+date:       2020-12-28 02:44:05 -0500
 permalink:  2020_hindsight_reflecting_on_the_past_and_preparing_for_the_future
 ---
 
@@ -48,13 +48,13 @@ There are also some companies out there that look for experience with wireframin
 
 I've been at the job search for a couple of months now. From what I can tell, a lot of companies are looking for people who have experience in at least one of these languages.
 
-Python, like Ruby, is an easy-to-learn and very readable programming language. It's high-level and widely used by companies such as Google, Amazon, and Facebook. It also has a wide range of uses, such as web development, machine learning, and scraping. A popular Python web framework is Django, which is used by YouTube, Instagram, Dropbox, and other companies. Check out [Reference 1](https://www.geeksforgeeks.org/python-programming-language/?ref=lbp) for more information.
+Python, like Ruby, is an easy-to-learn and very readable programming language. It's high-level and widely used by companies such as Google, Amazon, and Facebook. It also has a wide range of uses, such as web development, machine learning, and scraping. A popular Python web framework is Django, which is used by YouTube, Instagram, Dropbox, and other companies. Check out [Reference 2](https://www.geeksforgeeks.org/python-programming-language/?ref=lbp) for more information.
 
-Java was created in 1995, and it's still widely used today. It is open source and used for mobile, desktop, and web applications, just to name a few (see [Reference 2](https://www.w3schools.com/java/java_intro.asp)). Frameworks that use Java include Spring, Hibernate, and Google Web Toolkit, among others (see [Reference 3](https://www.edureka.co/blog/java-frameworks/).
+Java was created in 1995, and it's still widely used today. It is open source and used for mobile, desktop, and web applications, just to name a few (see [Reference 3](https://www.w3schools.com/java/java_intro.asp)). Frameworks that use Java include Spring, Hibernate, and Google Web Toolkit, among others (see [Reference 4](https://www.edureka.co/blog/java-frameworks/)).
 
-(C# is an object-oriented language used by Microsoft in many of its .NET apps. C# runs on the .NET framework, which also supports the F# and Visual Basic languages (see [Reference 4](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/) and [Reference 5](https://docs.microsoft.com/en-us/dotnet/core/introduction)).
+(C# is an object-oriented language used by Microsoft in many of its .NET apps. C# runs on the .NET framework, which also supports the F# and Visual Basic languages (see [Reference 5](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/) and [Reference 6](https://docs.microsoft.com/en-us/dotnet/core/introduction)).
 
-Finally, C++ is "a powerful general-purpose programming language [that] can be used to develop operating systems, browsers, games, and so on" ([Reference 6](https://www.programiz.com/cpp-programming)). For a list of handy C++ frameworks and libraries, check out [Reference 7](https://github.com/fffaraz/awesome-cpp#frameworks).
+Finally, C++ is "a powerful general-purpose programming language [that] can be used to develop operating systems, browsers, games, and so on" ([Reference 7](https://www.programiz.com/cpp-programming)). For a list of handy C++ frameworks and libraries, check out [Reference 8](https://github.com/fffaraz/awesome-cpp#frameworks).
 
 ### 2. Create a portfolio website
 
